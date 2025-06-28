@@ -20,10 +20,10 @@ A clean, modern website for a local appliance repair company specialising in fri
 4. [Testing](#testing)
 5. [Deployement](#deployment)
 6. [Credits](#credits)
-    * [Content]
-    * [Media]
-    * [Code]
-    * [Acknowledgement]
+    * [Content](#content)
+    * [Media](#media)
+    * [Code](#code)
+    * [Acknowledgement](#acknowledgement)
 
 
 ---
@@ -38,40 +38,40 @@ This website provides users with an easy way to:
 
 It's designed to be clear, responsive, and user-friendly for all vistors. 
 
-## Developer and Business Goals
+### Developer and Business Goals
 - Increase visitor-to-customer conversion by reducing friction in booking and contact
 - Build trust through social proof (reviews, photos, videos)
 - Encourage quick action with easy contact options
 - Strengthen local precesence via targeted, helpful contact
 
-## User Stories
+### User Stories
 As a **potential customer**, I want to:
 
 1. Quickly see what types of appliances you repair so that I can feel confident your services meets my needs
-    * ✅ The home page clearly list major apliance types (e.g. ovens, fridges, washing machines, dishwashers)
-    * ✅ There's a dedicated "Our Services" page with further detail
-    * ✅ Appliance types appear within the first screen on desktop and mobile (no scrolling required)
+    * ✅ The home page clearly list major apliance types *(e.g. ovens, fridges, washing machines, dishwashers)*
+    * ✅ There's a dedicated **Our Services** page with further detail
+    * ✅ Appliance types appear within the first screen on desktop and mobile *(no scrolling required)*
 2. See clear pricing or how to get a quote, so that I can make a decision without needing to call first
-    * ✅ There is a "Pricing" or "Get a Quote" button visable on the home page
+    * ✅ There is a **Pricing** or **Get a Quote** button visable on the home page
     * ✅ Clicking this takes the user to a form or price guide with estimated costs or a simple quote request form
     * ✅ The form can be completed in under 2 minutes
 4. Be able to easily book a repair visit online, so that I don't have to wait to speak to someone
-    * ✅ The website has a "Book Now" button on all main pages
+    * ✅ The website has a **Book Now** button on all main pages
     * ✅ Booking form allows selection of appliance type, issue, date, and contact details
     * ✅ Customer recieves an email or SMS confirmation after booking
 6. See positive reviews or testimonials from real customers, so I feel reassured about the quality of your serivce
     * ✅ At least 3 customer reviews are visable on the home page
-    * ✅ Reviews are real (from Google, Trustpilot or direct customers)
+    * ✅ Reviews are real *(from Google, Trustpilot or direct customers)*
     * ✅ There's a link to view more reviews
 8. See photos of your work or your team, so I can trust that you're professional and realiable
     * ✅ The home page features at least 1 image of the team or repair work
-    * ✅ There is a gallery or "About Us" page with photos that look professional and friendly
+    * ✅ There is a gallery or **About Us** page with photos that look professional and friendly
 
 As a **customer**, with an urgent repair: 
 
 1. See contact details immediately so that I can reach you fast
     * ✅ A clickable phone number is in the site header and footer
-    * ✅ Contact options (phone, whatsapp, email) are visable on the home page without scrolling
+    * ✅ Contact options *(phone, WhatsApp, email)* are visable on the home page without scrolling
 
 As a **returning customer** I want to:
 
@@ -82,7 +82,7 @@ As a **returning customer** I want to:
 As a **mobile user** I want your: 
 
 1. Website to load fast and work well on my phone, so I can use it easily when I'm on the go
-    * ✅ All key buttons (book, contact) are finger-friendly and easy to tap
+    * ✅ All key buttons *(book, contact)* are finger-friendly and easy to tap
     * ✅ Content is readable without zooming on small screens
 
 As a **local resident** I want to: 
@@ -92,14 +92,14 @@ As a **local resident** I want to:
     * ✅ At least 1 educational/ helpful post per week about appliance faults/ tips
     * ✅ Posts are written in plain language, not technical jargon
   
-As a ••busy homeowner** I want to: 
+As a **busy homeowner** I want to: 
 
 1. See your opening hours, service area, and services at a glance, so I know you cover my location and needs
-    * ✅ Website list opening hours, main appliance types, and service area (e.g. "Serving Herts & North London")
+    * ✅ Website list opening hours, main appliance types, and service area *(e.g. **Serving Herts & North London**)*
 
-## Design Choices
+### Design Choices
 
-## Wireframes
+### Wireframes
 
 #### Home Page
 
@@ -132,12 +132,24 @@ As a ••busy homeowner** I want to:
 
 ---
 
+# Testing
+
+---
+
 # Deployment 
 Deployed via GitHub Pages: <!-- include deployed page -->
 
 ---
 
 # Credits
+
+### Content
+
+### Media
+
+### Code
+
+### Acknowledgement
 - [Code Institute](https://codeinstitute.net/global/)
 <!-- include any CSS frameworks, resource for images, etc) -->
 
