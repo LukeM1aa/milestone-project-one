@@ -137,6 +137,21 @@ CSS
 ```@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,500;1,500&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');```
 ```</style>```
 
+#### Accessibility Typography
+
+The fonts have been chosen with readability and accessibility in mind:
+
+- Provide sufficient letter spacing and clear distinction between characters
+- Avoid decorative fonts or excessive stylisation that could impair readability
+- Pair with strong colour contrast to support users with low vision or dyslexia
+
+Where possible:
+
+- **Responsive sizing** so text remains readable on all devices
+- **Scable units (e.g. rem/em)** so users can resize text in their browser without breaking layout
+
+*Further accessibility best practises are considered in styling and layout to ensure inclusive design.*
+
 ### Imagery
 
 ## Wireframes
@@ -208,5 +223,6 @@ Deployed via GitHub Pages: <!-- include deployed page -->
 ## Acknowledgement
 - [Code Institute](https://codeinstitute.net/global/) - Learning Platform
 - [WCAG 2.1](https://www.w3.org/TR/WCAG21) and [Coolors Color Contrast Checker](https://coolors.co/contrast-checker) - Accessibility contrast checker to support and maintain readability
+- [WCAG 2..2 Techniques](https://www.w3.org/WAI/WCAG22/Techniques/css/C22) and [WebAim - Typefaces and Fonts](https://webaim.org/techniques/fonts/) - Accessibility typeface and fonts support and maintain readability
 <!-- include any CSS frameworks, resource for images, etc) -->
 
