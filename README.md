@@ -101,7 +101,7 @@ As a **busy homeowner** I want to:
 
 ### Colour Scheme
 
-The following colour palettes is generated via [Coolors](https://coolors.co/1b2a41-4a4a4a-ff6b35-f5f5f5-333333):
+The following [colour palette](assets/colour-scheme/colour-scheme.png) is generated via [Coolors](https://coolors.co/1b2a41-4a4a4a-ff6b35-f5f5f5-333333):
 
 - **Primary:** Oxford Blue `#1B2A41`
 - **Secondary:** Davy's Gray `#4A4A4A`
@@ -111,15 +111,18 @@ The following colour palettes is generated via [Coolors](https://coolors.co/1b2a
 
 These colours have been chosen to convey trust, clarity, and a clean modern look suitable for an appliance repair business.
 
-#### Accessibility
+#### Accessibility Contrast
 
 The colour palette has been chosen with the aim to meet [WCAG 2.1](https://www.w3.org/TR/WCAG21) AA contrast requirements for readability and accessibility:
 
-- **Primary #1B2A41** on **light backgrounds #F5F5F5** provides strong constrast for headings and key UI elements
-- **Body text #333333** on **light backgroudns #F5F5F5** meets recommended contrast for standard text
+- **Primary #1B2A41** on **light backgrounds #F5F5F5** provides strong constrast for headings and key UI elements (12.2:1 contrast ratio / AAA WCAG)
+- **Body text #333333** on **light backgroudns #F5F5F5** meets recommended contrast for standard text (15.2:1 contract ratio / AAA WCAG)
 - **Accent #FF6B35** is used for buttons and calls to action, always paired with sufficient contrast (e.g. white on orange buttons)
+- Small orange text on light backgrounds will be avoided to maintain readability
 
 *All colours have been checked against [Coolors Color Contrast Checker](https://coolors.co/contrast-checker).*
+
+⚠️ If you customise this palette, please check that new combinations maintain sufficient colour contrast for users with visual impairments. 
 
 ### Typograhpy
 The following typography is loaded from [Google Fonts](https://fonts.google.com/):
@@ -141,14 +144,17 @@ The wireframes represent the core pages of the appliance repair website, designe
 
 ### Home Page
 Features appliance categories, booking button, reviews, and contact info. Mobile devices are optimised for thumb-friendly navigation with quick access to booking and contacts.
+
 ![Home Wireframes](assets/wireframes/home-page.png)
 
 ### Our Services Page
 Lists individual services (e.g. oven repairs) with descriptions and images, plus a "Contact Us" button. Mobile layout stacks sevice info for easy scrolling.
+
 ![Our Services Wireframes](assets/wireframes/our-services.png)
 
 ### Contact Us Page
 Simple form with name, email, and message fields, plus a clear "Send" button.
+
 ![Contact Us Wireframes](assets/wireframes/contact-us.png)
 
 ---
@@ -190,11 +196,17 @@ Deployed via GitHub Pages: <!-- include deployed page -->
 
 ## Content
 
+- [Coolors](https://coolors.co/1b2a41-4a4a4a-ff6b35-f5f5f5-333333) - Color scheme generator for styling
+- [Google Fonts](https://fonts.google.com/) - For typography imports
+
 ## Media
 
 ## Code
 
+- [Google Fonts](https://fonts.google.com/) - Embed CSS code for typography
+
 ## Acknowledgement
 - [Code Institute](https://codeinstitute.net/global/) - Learning Platform
+- [WCAG 2.1](https://www.w3.org/TR/WCAG21) and [Coolors Color Contrast Checker](https://coolors.co/contrast-checker) - Accessibility contrast checker to support and maintain readability
 <!-- include any CSS frameworks, resource for images, etc) -->
 
