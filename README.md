@@ -104,19 +104,19 @@ As a **busy homeowner** I want to:
 ### Imagery
 
 ## Wireframes
-The wireframes represent the core pages of the appliance repair website, designed to work across desktop (>769px), tablet (<768px), and mobile (<478px) devices. They ensure quick access to booking, contact, and service information. 
+The wireframes represent the core pages of the appliance repair website, designed to work across larger devices **>769px**, tablet **<768px**, and mobile **<478px** devices. They ensure quick access to booking, contact, and service information. 
 
 ### Home Page
+Features appliance categories, booking button, reviews, and contact info. Mobile devices are optimised for thumb-friendly navigation with quick access to booking and contacts.
 ![Home Wireframes](assets/wireframes/home-page.png)
-Features appliance categories, booking button, reviews, and contact info. Mobile devices **<468px** optimised for thumb-friendly navigation with quick access to booking and contacts.
 
 ### Our Services Page
-![Our Services Wireframes](assets/wireframes/our-services.png)
 Lists individual services (e.g. oven repairs) with descriptions and images, plus a "Contact Us" button. Mobile layout stacks sevice info for easy scrolling.
+![Our Services Wireframes](assets/wireframes/our-services.png)
 
 ### Contact Us Page
-![Contact Us Wireframes](assets/wireframes/contact-us.png)
 Simple form with name, email, and message fields, plus a clear "Send" button.
+![Contact Us Wireframes](assets/wireframes/contact-us.png)
 
 ---
 
