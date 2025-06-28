@@ -162,6 +162,6 @@ Deployed via GitHub Pages: <!-- include deployed page -->
 ## Code
 
 ## Acknowledgement
-- [Code Institute](https://codeinstitute.net/global/)
+- [Code Institute](https://codeinstitute.net/global/) - Learning Platform
 <!-- include any CSS frameworks, resource for images, etc) -->
 
