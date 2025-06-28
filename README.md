@@ -88,7 +88,7 @@ As a **mobile user** I want your:
 As a **local resident** I want to: 
 
 1. See comments and reviews about common appliance faults and fixes, so I can recognise when I need a repair
-2.  See social media posts about common appliance faults and fixes, so I can recognise when I need a repair
+2. See social media posts about common appliance faults and fixes, so I can recognise when I need a repair
     * ✅ At least 1 educational/ helpful post per week about appliance faults/ tips
     * ✅ Posts are written in plain language, not technical jargon
   
@@ -140,6 +140,7 @@ Simple form with name, email, and message fields, plus a clear "Send" button.
 - CSS3
 - Google Fonts
 - Font Awesome
+- Balsamiq Wireframes
 
 ---
 
