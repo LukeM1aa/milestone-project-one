@@ -101,6 +101,26 @@ As a **busy homeowner** I want to:
 
 ### Colour Scheme
 
+The following colour palettes is generated via [Coolors](https://coolors.co/1b2a41-4a4a4a-ff6b35-f5f5f5-333333):
+
+- **Primary:** Oxford Blue `#1B2A41`
+- **Secondary:** Davy's Gray `#4A4A4A`
+- **Accent:** Orange (Crayola) `#FF6B35`
+- **Background:** White Smoke `#F5F5F5`
+- **Body Text:** Jet `#333333`
+
+These colours have been chosen to convey trust, clarity, and a clean modern look suitable for an appliance repair business.
+
+#### Accessibility
+
+The colour palette has been chosen with the aim to meet [WCAG 2.1](https://www.w3.org/TR/WCAG21) AA contrast requirements for readability and accessibility:
+
+- **Primary #1B2A41** on **light backgrounds #F5F5F5** provides strong constrast for headings and key UI elements
+- **Body text #333333** on **light backgroudns #F5F5F5** meets recommended contrast for standard text
+- **Accent #FF6B35** is used for buttons and calls to action, always paired with sufficient contrast (e.g. white on orange buttons)
+
+*All colours have been checked against [Coolors Color Contrast Checker](https://coolors.co/contrast-checker).*
+
 ### Typograhpy
 The following typography is loaded from [Google Fonts](https://fonts.google.com/):
 - **Primary font:** [Host Grotesk (Medium 500)](https://fonts.google.com/specimen/Host+Grotesk) - used for headings and key UI text
