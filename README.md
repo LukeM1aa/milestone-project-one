@@ -100,7 +100,20 @@ As a **busy homeowner** I want to:
 ## Design Choices
 
 ### Colour Scheme
+
 ### Typograhpy
+The following typography is loaded from [Google Fonts](https://fonts.google.com/):
+- **Primary font:** [Host Grotesk (Medium 500)](https://fonts.google.com/specimen/Host+Grotesk) - used for headings and key UI text
+- **Secondary font:** [Source Code Pro](https://fonts.google.com/specimen/Source+Code+Pro) - used for snippets and technical elements
+- **Body:** [Inter](https://fonts.google.com/specimen/Inter?query=inter) - used for paragraphs and general content
+
+#### Google Fonts Link
+CSS
+
+```<style>```
+```@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,500;1,500&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');```
+```</style>```
+
 ### Imagery
 
 ## Wireframes
