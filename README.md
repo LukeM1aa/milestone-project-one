@@ -99,12 +99,14 @@ As a **busy homeowner** I want to:
 
 ### Design Choices
 
+#### Colour Scheme
+#### Typograhpy
+#### Imagery
+
 ### Wireframes
 
 #### Home Page
-
 #### Services Page
-
 #### Contact Page
 
 ---
