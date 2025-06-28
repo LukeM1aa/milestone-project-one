@@ -38,13 +38,13 @@ This website provides users with an easy way to:
 
 It's designed to be clear, responsive, and user-friendly for all vistors. 
 
-### Developer and Business Goals
+## Developer and Business Goals
 - Increase visitor-to-customer conversion by reducing friction in booking and contact
 - Build trust through social proof (reviews, photos, videos)
 - Encourage quick action with easy contact options
 - Strengthen local precesence via targeted, helpful contact
 
-### User Stories
+## User Stories
 As a **potential customer**, I want to:
 
 1. Quickly see what types of appliances you repair so that I can feel confident your services meets my needs
@@ -97,29 +97,29 @@ As a **busy homeowner** I want to:
 1. See your opening hours, service area, and services at a glance, so I know you cover my location and needs
     * ✅ Website list opening hours, main appliance types, and service area *(e.g. **Serving Herts & North London**)*
 
-### Design Choices
+## Design Choices
 
-#### Colour Scheme
-#### Typograhpy
-#### Imagery
+### Colour Scheme
+### Typograhpy
+### Imagery
 
-### Wireframes
+## Wireframes
 
-#### Home Page
-#### Services Page
-#### Contact Page
+### Home Page
+### Services Page
+### Contact Page
 
 ---
 
 # Features
 
-### Existing Features
+## Existing Features
 - Clean, mobile-friendly design
 - Services section (fridge repair, washing machine repai, etc)
 - Testimonials / review section
 - Hero banner with business info and call to action
 
-### Future Enhancements
+## Future Enhancements
 - Add a booking system with calendar
 - Include a blog or tips section
 - Admin login for managing services and pricing
@@ -145,13 +145,13 @@ Deployed via GitHub Pages: <!-- include deployed page -->
 
 # Credits
 
-### Content
+## Content
 
-### Media
+## Media
 
-### Code
+## Code
 
-### Acknowledgement
+## Acknowledgement
 - [Code Institute](https://codeinstitute.net/global/)
 <!-- include any CSS frameworks, resource for images, etc) -->
 
