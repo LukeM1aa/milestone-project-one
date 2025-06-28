@@ -104,10 +104,16 @@ As a **busy homeowner** I want to:
 ### Imagery
 
 ## Wireframes
+The wireframes represent the core pages of the appliance repair website, designed to work across desktop (>769px), tablet (<768px), and mobile (<478px) devices. They ensure quick access to booking, contact, and service information. 
 
 ### Home Page
-### Services Page
-### Contact Page
+![Home Wireframes](assets/wireframes/home-page.png)
+
+### Our Services Page
+![Our Services Wireframes](assets/wireframes/our-services.png)
+
+### Contact Us Page
+![Contact Us Wireframes](assets/wireframes/contact-us.png)
 
 ---
 
