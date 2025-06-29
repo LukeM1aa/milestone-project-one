@@ -158,7 +158,7 @@ Where possible:
 
 Favicon chosen to match elements of the colour palette and give a clean modern look suitable for an appliance repair business.
 
-[Washing Machine](assets/images/washing-machine.png)
+![Washing Machine](../images/favicon/washing-machine.png)
 
 ## Wireframes
 The wireframes represent the core pages of the appliance repair website, designed to work across larger devices **>769px**, tablet **<768px**, and mobile **<478px** devices. They ensure quick access to booking, contact, and service information. 
