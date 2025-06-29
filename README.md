@@ -160,6 +160,21 @@ Favicon chosen to match elements of the colour palette and give a clean modern l
 
 ![Washing Machine](assets/favicon/washing-machine.png) - 20x20 PNG file
 
+#### Logo
+
+The business logo was used in the navigation bar and across key pages.
+
+![Business logo](assets/images/logo.svg)
+
+- **File type:** SVG
+- **Usage:** The logo is lightweight, scalable, and responsive to ensure clarity on all devices and screen sizes
+- **Placement:** Positioned in the navbar to support brand identity without overwhelming content
+- **Sizing:** Controlled using CSS to maintain aspect ratio and fit within the navbar layout:
+
+CSS
+
+```.logo {height: 150px; width: auto;}```
+
 ## Wireframes
 The wireframes represent the core pages of the appliance repair website, designed to work across larger devices **>769px**, tablet **<768px**, and mobile **<478px** devices. They ensure quick access to booking, contact, and service information. 
 
@@ -217,10 +232,11 @@ Deployed via GitHub Pages: <!-- include deployed page -->
 
 ## Content
 
+## Media
 - [Coolors](https://coolors.co/1b2a41-4a4a4a-ff6b35-f5f5f5-333333) - Color scheme generator for styling
 - [Google Fonts](https://fonts.google.com/) - For typography imports
 - [Free Icons](https://freeicons.io/profile/75801) - For Favicon credit to designer Hilmy Abiyyu Asad, contributor to free source
-## Media
+- [Canva](https://www.canva.com/) - Used to design business logo and generate SVG file for navbar
 
 ## Code
 
