@@ -1,3 +1,55 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,500;1,500&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 
+/* CSS Variables */
+:root {
+    --primary-font: "Host Grotesk", sans-serif; /*hero & poppins canva*/
+    --secondary-font: "Source Code Pro", monospace; 
+    --body-font: "Inter", sans-serif;
+    --primary-color: #1B2A41; /* oxford blue */
+    --secondary-color: #4A4A4A; /* davy's gray */
+    --accent-color: #FF6B35; /* orange (crayola) */
+    --body-color: #333333; /* jet */
+}
+
+/* Global Styles */
+
+body {
+    font-family: var(--body-font);
+    font-size: 1rem; /* 16px, respects user settings */
+    line-height: 1.5; /* Improves readability*/
+    color: #333333;
+    background-color: #F5F5F5;
+}
+
+h1 {
+    font-family: var(--primary-font);
+    font-size: 2rem; /* 32px*/
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+h2 {
+    font-family: var(--primary-font);
+    font-size: 1.5rem; /* 24px */
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+/* Navbar */
+.logo {
+    height: 150px;
+    width: auto;
+}
+
+.navbar-brand {
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    font-size: 2em;
+}
+
+.navbar-nav {
+    font-family: var(--body-font);
+    color: var(--body-color);
+    font-weight: 500;
+}
