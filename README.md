@@ -125,7 +125,7 @@ The colour palette has been chosen with the aim to meet [WCAG 2.1](https://www.w
 ⚠️ If you customise this palette, please check that new combinations maintain sufficient colour contrast for users with visual impairments. 
 
 ### Typograhpy
-The following typography is loaded from [Google Fonts](https://fonts.google.com/):
+The following typography is imported from [Google Fonts](https://fonts.google.com/):
 - **Primary font:** [Host Grotesk (Medium 500)](https://fonts.google.com/specimen/Host+Grotesk) - used for headings and key UI text
 - **Secondary font:** [Source Code Pro](https://fonts.google.com/specimen/Source+Code+Pro) - used for snippets and technical elements
 - **Body:** [Inter](https://fonts.google.com/specimen/Inter?query=inter) - used for paragraphs and general content
@@ -153,6 +153,12 @@ Where possible:
 *Further accessibility best practises are considered in styling and layout to ensure inclusive design.*
 
 ### Imagery
+
+#### Favicon
+
+Favicon chosen to match elements of the colour palette and give a clean modern look suitable for an appliance repair business.
+
+[Washing Machine](assets/images/washing-machine.png)
 
 ## Wireframes
 The wireframes represent the core pages of the appliance repair website, designed to work across larger devices **>769px**, tablet **<768px**, and mobile **<478px** devices. They ensure quick access to booking, contact, and service information. 
@@ -213,7 +219,7 @@ Deployed via GitHub Pages: <!-- include deployed page -->
 
 - [Coolors](https://coolors.co/1b2a41-4a4a4a-ff6b35-f5f5f5-333333) - Color scheme generator for styling
 - [Google Fonts](https://fonts.google.com/) - For typography imports
-
+- [Free Icons](https://freeicons.io/profile/75801) - For Favicon credit to designer Hilmy Abiyyu Asad, contributor to free source
 ## Media
 
 ## Code
