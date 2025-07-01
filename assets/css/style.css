@@ -3,7 +3,7 @@
 
 /* CSS Variables */
 :root {
-    --primary-font: "Host Grotesk", sans-serif; /*hero & poppins canva*/
+    --primary-font: "Host Grotesk", sans-serif;
     --secondary-font: "Source Code Pro", monospace; 
     --body-font: "Inter", sans-serif;
     --primary-color: #1B2A41; /* oxford blue */
@@ -18,7 +18,7 @@ body {
     font-family: var(--body-font);
     font-size: 1rem; /* 16px, respects user settings */
     line-height: 1.5; /* Improves readability*/
-    color: #333333;
+    color: var(--body-color);
     background-color: #F5F5F5;
 }
 
@@ -39,7 +39,6 @@ h2 {
 /* Navbar */
 
 .logo {
-    /* height: 89px; */
     max-height: 89px;
     width: auto;
     padding: 1.5px;
@@ -57,32 +56,20 @@ h2 {
 
 .hero {
     position: relative;
-    background: url("../images/hero-image4.jpeg") center/cover no-repeat;
+    background: url("../images/hero-image.jpeg") center/cover no-repeat;
     height: 40vh;
-    width: 100%;
+    width: auto;
     color: #fff;
 }
 
-.hero::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
 .hero-content {
-    position: relative;
-    top: 1rem;
+    position: absolute;
+    top: 1.05rem;
     left: 0.5rem;
     padding: 0.5rem;
     max-width: 100%;
-    font-size: 2.4rem;
+    font-size: 2rem;
     color: white;
-    z-index: 2;
 }
 
 .btn {
@@ -106,33 +93,63 @@ h2 {
     border: none;
 }
 
+/* small mobile devices (mobile devices, 320px and up) */
+@media screen and (min-width: 320px) {
+
+    .hero {
+    background: url("../images/hero-image.jpeg") center/cover no-repeat;
+    background-position: 69%;
+    }
+}
+
+/* Large mobile devices (Large mobile, 425px and up) */
+@media screen and (min-width: 425px) {
+
+    /* Hero */
+    .hero-content {
+    position: absolute;
+    font-size: 2.3rem;
+    }
+}
+
 /* Tablet devices (tablet, 768px and up) */
 @media screen and (min-width: 768px) {
 
     /* Hero */
     .hero-content {
-    position: absolute;
-    top: 1rem;
-    left: 0.5rem;
-    /* background: rgba(0,0,0,0.03); */
-    padding: 0.5rem;
-    /* border-radius: 8px; */
-    max-width: 100%;
-    font-size: 5rem;
+    font-size: 3.9rem;
     }
+
+    .hero {
+    height: 50vh;
+    }
+
 }
 
-/* Large devices (laptops and desktops, 1200px and up) */
-@media screen and (min-width: 1200px) {
+/* Large devices (laptops and desktops, 1024px and up) */
+@media screen and (min-width: 1024px) {
 
     /* Hero */
     .hero-content {
-    position: absolute;
-    top: 1rem;
-    left: 0.5rem;
-    padding: 0.5rem;
-    max-width: 100%;
-    font-size: 6.5rem;
+    font-size: 5.2rem;
     }
 
+    .hero {
+    height: 45vh;
+    background: url("../images/hero-image.jpeg") 10% 26% / cover no-repeat;
+    }
+
+}
+
+/* XL devices (XL devices, 1440px and up) */
+@media screen and (min-width: 1440px) {
+
+    /* Hero */
+    .hero-content {
+    font-size: 7.6rem;
+    }
+
+    .hero {
+    height: 59vh;
+    }
 }
