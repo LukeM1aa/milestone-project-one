@@ -52,7 +52,7 @@ h2 {
 
 /* Main content */
 
-/* Hero section */
+/* Hero image */
 
 .hero {
     position: relative;
@@ -72,9 +72,9 @@ h2 {
     color: white;
 }
 
-.btn {
+.hero-btn {
     position: absolute;
-    bottom: 0.9rem;
+    bottom: 1rem;
     left: 50%;
     transform: translateX(-50%);
     padding: clamp(0.5rem, 1vw, 0.75rem) clamp(1rem, 2vw, 1.5rem);
@@ -84,72 +84,113 @@ h2 {
     text-decoration: none;
     border-radius: 4px;
     border: none;
-    box-shadow: 1px 1px #fa591f;
+    box-shadow: 0.5px 0.5px #942b0565;
     z-index: 3;
 }
 
-.btn:hover {
+.hero-btn:hover {
     background-color: #fa591f;
     border: none;
+}
+
+/* Appliances */
+
+#appliance-grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.appliance-img {
+    background-color: #b2b2b222;
+    height: 135px;
+    width: auto;
+    margin: 10px;
+    border-radius: 8%;
+
 }
 
 /* small mobile devices (mobile devices, 320px and up) */
 @media screen and (min-width: 320px) {
 
-    .hero {
+.hero {
     background: url("../images/hero-image.jpeg") center/cover no-repeat;
     background-position: 69%;
-    }
+}
+
 }
 
 /* Large mobile devices (Large mobile, 425px and up) */
 @media screen and (min-width: 425px) {
 
-    /* Hero */
-    .hero-content {
+/* Hero */
+.hero-content {
     position: absolute;
+    top: 2rem;
     font-size: 2.3rem;
-    }
+}
+
 }
 
 /* Tablet devices (tablet, 768px and up) */
 @media screen and (min-width: 768px) {
 
-    /* Hero */
-    .hero-content {
+/* Hero */
+.hero-content {
     font-size: 3.9rem;
-    }
+}
 
-    .hero {
+.hero {
     height: 50vh;
-    }
+}
+
+/* Appliances */
+
+.appliance-img {
+    height: 165px;
+}
 
 }
 
 /* Large devices (laptops and desktops, 1024px and up) */
 @media screen and (min-width: 1024px) {
 
-    /* Hero */
-    .hero-content {
+/* Hero */
+.hero-content {
     font-size: 5.2rem;
-    }
+    left: 1.2rem;
+}
 
-    .hero {
+.hero {
     height: 45vh;
     background: url("../images/hero-image.jpeg") 10% 26% / cover no-repeat;
-    }
+}
+
+/* Hero button */
+.hero-btn{
+    bottom: 4.8rem;
+    left: 9.5%;
+}
 
 }
 
 /* XL devices (XL devices, 1440px and up) */
 @media screen and (min-width: 1440px) {
 
-    /* Hero */
-    .hero-content {
-    font-size: 7.6rem;
-    }
+/* Hero */
+.hero-content {
+    font-size: 7.3rem;
+}
 
-    .hero {
+.hero {
     height: 59vh;
-    }
+}
+
+/* Hero button */
+.hero-btn{
+    bottom: 6rem;
+    left: 7%;
+}
+
 }
