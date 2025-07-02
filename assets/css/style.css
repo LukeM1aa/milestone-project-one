@@ -119,15 +119,18 @@ h2 {
 /* custom css */
     margin-left: 10px;
     margin-right: 10px;
+    background-color: var(--accent-color);
  }
 
 .carousel-caption {
     text-align: left;
-    left: 8%;
+    left: 0.9rem;
+    top: 1.2rem;
  }
 
 .carousel-caption > h2 {
     font-size: 2rem;
+    text-wrap: balance;
  }
 
 .carousel-caption, p {
@@ -135,8 +138,10 @@ h2 {
 } 
 
 .carousel-item img {
-    height: 500px;
+    height: 400px;
     width: auto;
+    position: relative;
+    right: -455px;
  }
 
  .review-star {
@@ -189,6 +194,10 @@ h2 {
     font-size: 3rem;
 }
 
+.carousel-item img {
+    right: -750px;
+}
+
 }
 
 /* Large devices (laptops and desktops, 1024px and up) */
@@ -217,6 +226,12 @@ h2 {
     font-size: 3rem;
 }
 
+/* Customer reviews */
+
+.carousel-item img {
+    right: -560px;
+}
+
 }
 
 /* XL devices (XL devices, 1440px and up) */
@@ -235,6 +250,16 @@ h2 {
 .hero-btn{
     bottom: 6rem;
     left: 7%;
+}
+
+/* Customer reviews */
+
+.carousel-item img {
+    right: -990px;
+}
+
+.carousel-caption {
+    margin-right: 190px;
 }
 
 }
