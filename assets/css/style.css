@@ -139,6 +139,10 @@ h2 {
     width: auto;
  }
 
+ .review-star {
+    margin-bottom: 8px;
+ }
+
 /* small mobile devices (mobile devices, 320px and up) */
 @media screen and (min-width: 320px) {
 
