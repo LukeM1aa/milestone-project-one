@@ -111,10 +111,6 @@ h2 {
 
 /* Customer Reviews */
 
-.carousel-inner {
-    background-color: #1B2A41;
-}
-
 /* override bootstrap styling to change the carousel indicator buttons into dots, code taken from stack overlow by Bashid https://stackoverflow.com/questions/70819649/how-can-i-change-bootstrap-5-carousel-indicators-into-dots/71997944*/
 .carousel .carousel-indicators button {
     width: 10px;
@@ -125,11 +121,20 @@ h2 {
     margin-right: 10px;
  }
 
- .carousel-caption {
+.carousel-caption {
     text-align: left;
+    left: 8%;
  }
 
- .carousel-item img {
+.carousel-caption > h2 {
+    font-size: 2rem;
+ }
+
+.carousel-caption, p {
+    color: var(--body-color)
+} 
+
+.carousel-item img {
     height: 500px;
     width: auto;
  }
@@ -174,6 +179,12 @@ h2 {
     height: 165px;
 }
 
+/* Customer reviews */
+
+.carousel-caption > h2 {
+    font-size: 3rem;
+}
+
 }
 
 /* Large devices (laptops and desktops, 1024px and up) */
@@ -194,6 +205,12 @@ h2 {
 .hero-btn{
     bottom: 4.8rem;
     left: 9.5%;
+}
+
+/* Customer reviews */
+
+.carousel-caption > h2 {
+    font-size: 3rem;
 }
 
 }
