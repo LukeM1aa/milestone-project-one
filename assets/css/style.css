@@ -112,7 +112,7 @@ h2 {
 /* Customer Reviews */
 
 .carousel-inner {
-    background-color: aqua;
+    background-color: #1B2A41;
 }
 
 /* override bootstrap styling to change the carousel indicator buttons into dots, code taken from stack overlow by Bashid https://stackoverflow.com/questions/70819649/how-can-i-change-bootstrap-5-carousel-indicators-into-dots/71997944*/
