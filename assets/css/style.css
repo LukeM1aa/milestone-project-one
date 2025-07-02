@@ -125,7 +125,7 @@ h2 {
 .carousel-caption {
     text-align: left;
     left: 0.9rem;
-    top: 1.2rem;
+    top: 2rem;
  }
 
 .carousel-caption > h2 {
@@ -136,6 +136,10 @@ h2 {
 .carousel-caption, p {
     color: var(--body-color)
 } 
+
+.carousel-item {
+    background-color: #b2b2b222;
+}
 
 .carousel-item img {
     height: 400px;
@@ -259,7 +263,7 @@ h2 {
 }
 
 .carousel-caption {
-    margin-right: 190px;
+    margin-right: 300px;
 }
 
 }
