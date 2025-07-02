@@ -45,6 +45,10 @@ h2 {
     padding: 1.5px;
 }
 
+.navbar {
+    background-color: #F5F5F5;
+}
+
 .navbar-nav {
     font-family: var(--body-font);
     color: var(--body-color);
