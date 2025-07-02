@@ -110,6 +110,18 @@ h2 {
 
 }
 
+/* Customer Reviews */
+
+/* override bootstrap styling to change the carousel indicator buttons into dots, code taken from stack overlow by Bashid https://stackoverflow.com/questions/70819649/how-can-i-change-bootstrap-5-carousel-indicators-into-dots/71997944*/
+.carousel .carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+/* custom css */
+    margin-left: 10px;
+    margin-right: 10px;
+ }
+
 /* small mobile devices (mobile devices, 320px and up) */
 @media screen and (min-width: 320px) {
 
