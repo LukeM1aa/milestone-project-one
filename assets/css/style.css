@@ -175,11 +175,12 @@ h2 {
 
 #about-body h2 {
     font-size: 3rem;
-    margin: 10px 0 15px;
+    margin: 15px 0 15px;
 }
 
-#about-body p {
-    margin: 0px 25px 15px;
+#about-body, p {
+    margin: 0px 13px 15px;
+    /* text-align: justify; */
 }
 
 /* small mobile devices (mobile devices, 320px and up) */
