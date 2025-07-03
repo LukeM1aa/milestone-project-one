@@ -25,16 +25,21 @@ body {
 
 h1 {
     font-family: var(--primary-font);
-    font-size: 2rem; /* 32px*/
+    font-size: 2.5rem;
     font-weight: 500;
     color: var(--primary-color);
 }
 
 h2 {
     font-family: var(--primary-font);
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 500;
     color: var(--primary-color);
+    margin: 15px 0 15px;
+}
+
+#section {
+    padding-top: 5.5rem;
 }
 
 /* Navbar */
@@ -46,7 +51,7 @@ h2 {
 }
 
 .navbar {
-    background-color: #F5F5F5;
+    background-color: #ECECEC;
 }
 
 .navbar-nav {
@@ -134,7 +139,6 @@ h2 {
 }
 
 .carousel-caption h2 {
-    font-size: 2rem;
     text-wrap: balance;
 }
 
@@ -159,10 +163,6 @@ h2 {
 
 /* About us */ 
 
-/* #about-us {
-    padding-top: 5rem; prevent navbar overlap
-} */
-
 #about-body {
     display: flex;
     flex-flow: column;
@@ -172,17 +172,24 @@ h2 {
 
 #about-body img {
     position: relative;
-    width: 90%;
+    width: 100%;
     margin-bottom: 15px;
 }
 
-#about-body h2 {
-    font-size: 3rem;
+/* #about-body h2 {
     margin: 15px 0 15px;
-}
+} */
 
 #about-body p {
     margin: 0px 13px 15px;
+}
+
+/* Footer */
+
+#contact {
+    background-color: #ECECEC;
+    padding-top: 20px;
+    margin-top: 5px;
 }
 
 /* small mobile devices (mobile devices, 320px and up) */
@@ -237,8 +244,13 @@ h2 {
 
 /* About us */
 
+#about-body h2 {
+    font-size: 3rem;
+
+}
+
 #about-body p {
-    margin: 0px 50px 15px;
+    margin: 0px 15px 15px;
 }
 
 }
@@ -261,12 +273,6 @@ h2 {
 .hero-btn{
     bottom: 4.8rem;
     left: 9.5%;
-}
-
-/* Customer reviews */
-
-.carousel-caption > h2 {
-    font-size: 3rem;
 }
 
 /* Customer reviews */
@@ -308,7 +314,7 @@ h2 {
 /* About us */
 
 #about-body p {
-    margin: 0px 70px 15px;
+    margin: 0px 20px 15px;
 }
 
 }
