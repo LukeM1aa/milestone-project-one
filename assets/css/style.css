@@ -161,6 +161,10 @@ h2 {
 
 /* About us */ 
 
+#about-us h2 {
+    text-align: center;
+}
+
 #about-body {
     display: flex;
     flex-flow: column;
@@ -168,6 +172,8 @@ h2 {
     text-align: justify;
 
 }
+
+
 
 #about-body img {
     position: relative;
@@ -198,7 +204,7 @@ h2 {
 
 .hero {
     background: url("../images/hero-image.jpeg") center/cover no-repeat;
-    background-position: 69%;
+    background-position: 65%;
 }
 
 }
@@ -245,7 +251,7 @@ h2 {
 
 /* About us */
 
-#about-body h2 {
+#about-us h2 {
     font-size: 3rem;
 
 }
@@ -301,6 +307,11 @@ h2 {
 }
 
 /* About us */
+
+#about-body {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
 
 #about-body p {
     margin: 0px 20px 15px;
