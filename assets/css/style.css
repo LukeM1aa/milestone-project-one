@@ -151,37 +151,36 @@ h2 {
     width: auto;
     position: relative;
     right: -455px;
- }
+}
 
- .review-star {
+.review-star {
     margin-bottom: 8px;
- }
+}
 
- /* About us */ 
+/* About us */ 
 
- #about-body {
+#about-body {
     display: flex;
     flex-flow: column;
     align-items: center;
-    text-align: center;
- }
+    text-align: justify;
+}
 
- #about-body img {
+#about-body img {
     position: relative;
     width: 90%;
-    margin-bottom: 25px;
-    border-radius: 90px;
- }
+    margin-bottom: 15px;
+    /* border-radius: 90px; */
+}
 
- #about-body h2 {
+#about-body h2 {
     font-size: 3rem;
-    margin: 25px 0 25px;
- }
+    margin: 10px 0 15px;
+}
 
- #about-body p {
-    font-size: 1.5rem;
-    margin-bottom: 25px;
- }
+#about-body p {
+    margin: 0px 25px 15px;
+}
 
 /* small mobile devices (mobile devices, 320px and up) */
 @media screen and (min-width: 320px) {
@@ -231,6 +230,12 @@ h2 {
 
 .carousel-item img {
     right: -750px;
+}
+
+/* About us */
+
+#about-body p {
+    margin: 0px 50px 15px;
 }
 
 }
@@ -295,6 +300,12 @@ h2 {
 
 .carousel-caption {
     margin-right: 300px;
+}
+
+/* About us */
+
+#about-body p {
+    margin: 0px 70px 15px;
 }
 
 }
