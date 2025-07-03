@@ -133,9 +133,10 @@ The following typography is imported from [Google Fonts](https://fonts.google.co
 #### Google Fonts Link
 CSS
 
-```<style>```
-```@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,500;1,500&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');```
-```</style>```
+```<style>
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,500;1,500&family=Inter:ital,opsz,wght@0,14..32,100.900;1,14..32,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');```
+    </style>
+```
 
 #### Accessibility Typography
 
