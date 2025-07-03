@@ -125,20 +125,20 @@ h2 {
     margin-left: 10px;
     margin-right: 10px;
     background-color: var(--accent-color);
- }
+}
 
 .carousel-caption {
     text-align: left;
     left: 0.9rem;
     top: 2rem;
- }
+}
 
-.carousel-caption > h2 {
+.carousel-caption h2 {
     font-size: 2rem;
     text-wrap: balance;
- }
+}
 
-.carousel-caption, p {
+.carousel-caption p {
     color: var(--body-color)
 } 
 
@@ -159,6 +159,10 @@ h2 {
 
 /* About us */ 
 
+/* #about-us {
+    padding-top: 5rem; prevent navbar overlap
+} */
+
 #about-body {
     display: flex;
     flex-flow: column;
@@ -170,7 +174,6 @@ h2 {
     position: relative;
     width: 90%;
     margin-bottom: 15px;
-    /* border-radius: 90px; */
 }
 
 #about-body h2 {
@@ -178,9 +181,8 @@ h2 {
     margin: 15px 0 15px;
 }
 
-#about-body, p {
+#about-body p {
     margin: 0px 13px 15px;
-    /* text-align: justify; */
 }
 
 /* small mobile devices (mobile devices, 320px and up) */
