@@ -163,15 +163,17 @@ h2 {
     display: flex;
     flex-flow: column;
     align-items: center;
+    text-align: center;
  }
 
  #about-body img {
     position: relative;
-    width: 60%;
+    width: 90%;
     margin-bottom: 25px;
  }
 
  #about-body h2 {
+    font-size: 3rem;
     margin: 25px 0 25px;
  }
 
