@@ -84,6 +84,12 @@ h2 {
     border: none;
 }
 
+hr {
+    width: 80%;
+    margin: auto;
+    border-top: 5px solid var(--accent-color);
+}
+
 /* Navbar */
 
 .logo {
@@ -284,14 +290,14 @@ form .btn {
 
 /* Our services page */
 
-
-.service-hero,
 .services-list {
     margin-bottom: 2rem;
 }
+
+.services-hero,
 .service-item {
     text-align: center;
-    padding: 0.5rem 15% 0 15%;
+    padding: 0.5rem 10% 0;
 }
 
 .why-choose-us {
@@ -398,6 +404,11 @@ form .btn {
 /* Large devices (laptops and desktops, 1024px and up) */
 @media screen and (min-width: 1024px) {
 
+/* hr */
+hr {
+    width: 77%;
+}
+
 /* Hero */
 .hero-content {
     font-size: 5.2rem;
@@ -431,6 +442,10 @@ form .btn {
 /* XL devices (XL devices, 1440px and up) */
 @media screen and (min-width: 1440px) {
 
+hr {
+    width: 61%;
+}
+
 /* Hero */
 .hero-content {
     font-size: 7.3rem;
@@ -454,6 +469,13 @@ form .btn {
 
 #about-body p {
     margin: 0px 20px 15px;
+}
+
+/* Our services */
+
+.services-hero,
+.service-item {
+    padding: 0.5rem 20% 0;
 }
 
 }
