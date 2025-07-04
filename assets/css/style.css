@@ -283,6 +283,41 @@ form .btn {
     margin-top: 0.5rem;
 }
 
+/* Our services page */
+
+.service-hero {
+    padding: 1rem;
+    margin: 1rem 0;
+    max-width: 600px;
+}
+
+.service-item-left {
+    margin-left: 0;
+}
+
+.service-item-right {
+    margin-left: auto;
+}
+
+.why-choose-us {
+    padding: 2rem;
+    margin: 1rem;
+}
+
+.why-choose-us ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.why-choose-us li {
+    padding: 0.5rem 0;
+} 
+
+.call-to-action {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
 /* small mobile devices (mobile devices, 320px and up) */
 @media screen and (min-width: 320px) {
 
