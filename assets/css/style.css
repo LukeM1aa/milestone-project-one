@@ -198,9 +198,6 @@ h2 {
 }
 
 #about-body {
-    display: flex;
-    flex-flow: column;
-    align-items: center;
     text-align: justify;
 }
 
@@ -394,11 +391,6 @@ form .btn {
 }
 
 /* About us */
-
-#about-body {
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
 
 #about-body p {
     margin: 0px 20px 15px;
