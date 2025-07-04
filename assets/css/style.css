@@ -32,7 +32,7 @@ body {
 }
 
 main {
-    padding-top: 2rem;
+    padding-top: 9rem;
 }
 
 .wrapper {
@@ -112,7 +112,6 @@ h2 {
     height: 40vh;
     width: auto;
     color: #fff;
-    margin-top: 5rem;
 }
 
 .hero-content {
@@ -215,7 +214,7 @@ h2 {
 
 form {
     max-width: 500px;
-    margin: 85px auto 3px auto;
+    margin: 0 auto 30px;
     padding: 20px;
 }
 
@@ -269,7 +268,7 @@ form .btn {
 
 .thank-you-box {
     text-align: center;
-    margin: 12% 15% 11% 15%;
+    margin: 12% 15% 15% 15%;
 }
 
 #contact {
@@ -286,29 +285,51 @@ form .btn {
 /* Our services page */
 
 
-
+.service-hero,
+.services-list {
+    margin-bottom: 2rem;
+}
 .service-item {
     text-align: center;
-    padding: 0 20%;
+    padding: 0.5rem 15% 0 15%;
 }
 
 .why-choose-us {
-    padding: 2rem;
-    margin: 1rem;
+    background-color: #b2b2b222;
+}
+
+.why-choose-us h2 {
+    padding: 0.5rem;
+    margin: 0;
     text-align: center;
+}
+
+.why-choose-us img {
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+#why-choose-us-div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .why-choose-us ul {
     list-style: none;
+    padding: 0 1rem 0 1rem;
 }
 
 .why-choose-us li {
     padding: 0.5rem 0;
+    vertical-align: middle;
 } 
 
 .call-to-action {
     text-align: center;
-    padding: 2rem 1rem;
+    padding: 2rem 0 2rem 0;
 }
 
 /* small mobile devices (mobile devices, 320px and up) */
@@ -392,6 +413,17 @@ form .btn {
 
 .carousel-item img {
     right: -560px;
+}
+
+/* Our services */
+
+.why-choose-us img {
+    height: 300px;
+    width: auto;
+}
+
+#why-choose-us-div {
+    padding: 0 2rem 2rem;
 }
 
 }
