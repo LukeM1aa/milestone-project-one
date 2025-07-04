@@ -285,28 +285,21 @@ form .btn {
 
 /* Our services page */
 
-.service-hero {
-    padding: 1rem;
-    margin: 1rem 0;
-    max-width: 600px;
-}
 
-.service-item-left {
-    margin-left: 0;
-}
 
-.service-item-right {
-    margin-left: auto;
+.service-item {
+    text-align: center;
+    padding: 0 20%;
 }
 
 .why-choose-us {
     padding: 2rem;
     margin: 1rem;
+    text-align: center;
 }
 
 .why-choose-us ul {
     list-style: none;
-    padding-left: 0;
 }
 
 .why-choose-us li {
