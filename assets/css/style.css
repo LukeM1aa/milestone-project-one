@@ -189,12 +189,52 @@ form {
     max-width: 500px;
     margin: 0 auto;
     padding: 20px;
-    border-radius: 8px;
 }
 
 form h2 {
     text-align: center;
     margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #555;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+input[type=date],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=tel]:focus,
+input[type=date]:focus,
+select:focus,
+textarea:focus {
+    border-color: #007acc;
+    outline: none;
+}
+
+form div {
+    margin-top: 5px;
+
+}
+
+form .btn {
+    width: 100%;
 }
 
 /* Footer */
