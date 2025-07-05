@@ -10,6 +10,7 @@
     --secondary-color: #4A4A4A; /* davy's gray */
     --accent-color: #FF6B35; /* orange (crayola) */
     --secondary-accent: #fa591f; /*darker orange */
+    --hero-accent: #9be6ec; /* soft cyan */
     --body-color: #333333; /* jet */
     --background-color: #f5f5f5; /* white smoke*/
     --nav-color: #ECECEC; /* very light grey*/
@@ -222,6 +223,10 @@ main {
     right: -50em;
 }
 
+.fa-star {
+    color: var(--hero-accent);
+}
+
 /* Index.html - About us */ 
 
 #about-us h2 {
@@ -347,7 +352,7 @@ form .btn {
 }
 
 .services-accent {
-    background-color: #9be6ec;
+    background-color: var(--hero-accent);
     height: auto;
     width: 15em;
     margin: 1.5em;
