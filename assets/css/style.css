@@ -314,32 +314,39 @@ form .btn {
 
 /* Our-services.html */
 
-.services-hero {
-    padding: 2em 1em 1em;
-}
-
-.services-hero h1,
-.service-item h2 {
+.services-heading {
     text-align: center;
+    padding: 1em 0 0;
 }
 
-.services-hero p {
-    text-align: justify;
+div.service-item {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.service-item {
-    text-align: justify;
+.services-list img {
+    height: auto;
+    width: 100%;
+    position: relative;
+    padding: 0;
+}
+
+.services-list p {
     padding: 0 1em;
+    vertical-align: middle;
+}
+
+.services-list h2,
+.why-choose-us h2 {
+    padding: 0.5em;
+    margin: 0;
+    text-align: center;
 }
 
 .why-choose-us {
     background-color: var(--content-background);
-}
-
-.why-choose-us h2 {
-    padding: 0.5em 1em;
-    margin: 0;
-    text-align: center;
 }
 
 .why-choose-us img {
@@ -349,7 +356,7 @@ form .btn {
     padding: 0;
 }
 
-#why-choose-us-div {
+div.why-items {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -401,11 +408,6 @@ form .btn {
 /* Large devices (laptops and desktops, 1024px and up) */
 @media screen and (min-width: 1024px) {
 
-/* hr */
-hr {
-    width: 77%;
-}
-
 /* Hero */
 
 .hero {
@@ -420,19 +422,19 @@ hr {
 
 /* Our services */
 
+.services-list img,
 .why-choose-us img {
     height: 18.75em;
     width: auto;
 }
 
+.services-list p {
+    padding: 0 1em;
+
 }
 
 /* XL devices (XL devices, 1440px and up) */
 @media screen and (min-width: 1440px) {
-
-hr {
-    width: 55%;
-}
 
 /* Customer reviews */
 
@@ -442,13 +444,6 @@ hr {
 
 .carousel-item img {
     right: -60em;
-}
-
-/* Our services */
-
-.services-hero,
-.service-item {
-    padding: 0.5em 20% 0;
 }
 
 }
@@ -465,4 +460,6 @@ hr {
 
 .carousel-item img {
     right: -125em;
+}
+
 }
