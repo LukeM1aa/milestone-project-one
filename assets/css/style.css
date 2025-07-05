@@ -34,10 +34,6 @@ body {
     margin: 0;
 }
 
-main {
-    padding-top: 7em;
-}
-
 .wrapper {
   box-sizing: border-box;
   min-height: 100%;
@@ -69,7 +65,7 @@ h2 {
     font-size: 2rem;
     font-weight: 500;
     color: var(--primary-color);
-    margin: 0.5em 0 0.5em;
+    margin-bottom: 0.5em;
 }
 
 .btn {
@@ -91,10 +87,11 @@ hr {
     margin: auto;
     border-top: 0.3em solid var(--accent-color);
     border-radius: 15%;
+    padding: 1em 0
 }
 
 section {
-    margin: 1em 0;
+    padding-bottom: 1rem;
 }
 
 /* Navbar */
@@ -102,10 +99,6 @@ section {
 .logo {
     max-height: 4.4em;
     width: auto;
-}
-
-.navbar {
-    background-color: var(--nav-color);
 }
 
 .navbar-nav {
@@ -117,7 +110,7 @@ section {
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: #ffffff;
+    background-color: var(--nav-color);
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -128,7 +121,7 @@ nav {
 
 /* Nav toggle */
 #nav-toggle:checked~nav {
-    display: block;
+    display: flex;
 }
 
 #nav-toggle {
@@ -139,9 +132,13 @@ nav {
     font-size: 2rem;
 }
 
-/* Index page main content */
+/* Main content */
+main {
+    flex: 1 0 auto; /* Enlarge main element to push footer down*/
+    margin-top: 7em; /* Add margin at the top to prevent content from being covered by the header */
+}
 
-/* Hero image */
+/* Index.html - Hero image */
 
 .hero {
     position: relative;
@@ -167,7 +164,7 @@ nav {
     transform: translateX(-50%);
 }
 
-/* Appliances */
+/* Index.html - Appliances */
 
 #appliance-grid {
     display: flex;
@@ -184,7 +181,7 @@ nav {
     border-radius: 8%;
 }
 
-/* Customer Reviews */
+/* Index.html - Customer Reviews */
 
 /* override bootstrap styling to change the carousel indicator buttons into dots, code taken from stack overlow by Bashid https://stackoverflow.com/questions/70819649/how-can-i-change-bootstrap-5-carousel-indicators-into-dots/71997944*/
 .carousel .carousel-indicators button {
@@ -223,7 +220,7 @@ nav {
     right: -50em;
 }
 
-/* About us */ 
+/* Index.html - About us */ 
 
 #about-us h2 {
     text-align: center;
@@ -242,12 +239,12 @@ nav {
     margin: 1em;
 }
 
-/* Contact us page form */
+/* Contact-us.html - form */
 
 form {
-    max-width: 31em;
+    max-width: 30em;
     margin: 0 auto;
-    padding: 2.2em;
+    padding: 2em;
 }
 
 form h2 {
@@ -255,7 +252,7 @@ form h2 {
 }
 
 label {
-    display: block;
+    display: flex;
     margin-bottom: 0.3em;
     font-weight: 600;
     color: #555;
@@ -295,7 +292,7 @@ form .btn {
     width: 100%;
 }
 
-/* Action page */
+/* Action-page.html */
 
 .thank-you-box {
     text-align: center;
@@ -313,14 +310,10 @@ form .btn {
     margin-top: 0.5em;
 }
 
-/* Our services page */
-
-.services-list {
-    margin-bottom: 2em;
-}
+/* Our-services.html */
 
 .services-hero {
-    padding: 0 1em;
+    padding: 2em 1em 1em;
 }
 
 .services-hero h1,
@@ -372,6 +365,7 @@ form .btn {
 } 
 
 .call-to-action {
+    padding-top: 1rem;
     text-align: center;
 }
 
@@ -441,10 +435,6 @@ hr {
 .why-choose-us img {
     height: 18.75em;
     width: auto;
-}
-
-#why-choose-us-div {
-    padding: 0 2em 2em;
 }
 
 }
