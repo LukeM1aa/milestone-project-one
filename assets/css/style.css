@@ -143,7 +143,7 @@ main {
 .hero {
     position: relative;
     background: url("../images/hero-image.jpeg") center/cover no-repeat;
-    height: 25vh;
+    height: 30vh;
     width: auto;
     margin: 0;
     background-position: 70%;
@@ -316,29 +316,44 @@ form .btn {
 
 .services-heading {
     text-align: center;
-    padding: 1em 0 0;
+    padding: 0.5em 0 0;
+    font-size: 3rem;
 }
 
-div.service-item {
+.services p {
+    margin: 0 1rem;
+}
+
+.services-grid {
     display: flex;
     flex-flow: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.services-list img {
-    height: auto;
     width: 100%;
-    position: relative;
-    padding: 0;
 }
 
-.services-list p {
-    padding: 0 1em;
-    vertical-align: middle;
+.services-item {
+    flex: 1;
+    height: 9em;
+    width: auto;
+    margin: 0.5em;
+    text-align: center;
 }
 
-.services-list h2,
+.services-grey {
+    background-color: var(--content-background);
+    height: auto;
+    width: 15em;
+    margin: 1.5em;
+    border-radius: 100em 40em 80em 90em;
+}
+
+.services-accent {
+    background-color: #9be6ec;
+    height: auto;
+    width: 15em;
+    margin: 1.5em;
+    border-radius: 90em 80em 40em 100em;
+}
+
 .why-choose-us h2 {
     padding: 0.5em;
     margin: 0;
@@ -351,12 +366,12 @@ div.service-item {
 
 .why-choose-us img {
     height: auto;
-    width: 100%;
+    width: 12em;
     position: relative;
     padding: 0;
 }
 
-div.why-items {
+.why-items {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -374,7 +389,7 @@ div.why-items {
 } 
 
 .call-to-action {
-    padding-top: 1rem;
+    padding-top: 1em;
     text-align: center;
 }
 
@@ -403,6 +418,12 @@ div.why-items {
 
 }
 
+/* Our services */
+
+.services p {
+    margin: 0 5em;
+}
+
 }
 
 /* Large devices (laptops and desktops, 1024px and up) */
@@ -411,7 +432,7 @@ div.why-items {
 /* Hero */
 
 .hero {
-    height: 55vh;
+    height: 65vh;
 }
 
 /* Customer reviews */
@@ -420,16 +441,11 @@ div.why-items {
     right: -36em;
 }
 
-/* Our services */
+/* Appliances */
 
-.services-list img,
-.why-choose-us img {
-    height: 18.75em;
-    width: auto;
+.services p {
+    margin: 0 10em;
 }
-
-.services-list p {
-    padding: 0 1em;
 
 }
 
@@ -446,20 +462,10 @@ div.why-items {
     right: -60em;
 }
 
-}
+/* Our services */
 
-/* desktop devices ( desktop devices, 2560px and up) */
-@media screen and (min-width: 2560px) {
-
-/* Hero image */
-.hero {
-    background-position: 70% 20%;
-}
-
-/* Customer reviews */
-
-.carousel-item img {
-    right: -125em;
+.services p {
+    margin: 0 23em;
 }
 
 }
