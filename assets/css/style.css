@@ -32,7 +32,7 @@ body {
 }
 
 main {
-    padding-top: 9rem;
+    padding-top: 7rem;
 }
 
 .wrapper {
@@ -90,6 +90,10 @@ hr {
     border-top: 5px solid var(--accent-color);
 }
 
+section {
+    margin: 2rem 0;
+}
+
 /* Navbar */
 
 .logo {
@@ -115,14 +119,15 @@ hr {
 .hero {
     position: relative;
     background: url("../images/hero-image.jpeg") center/cover no-repeat;
-    height: 40vh;
+    height: 35vh;
     width: auto;
+    margin: 0;
     color: #fff;
 }
 
 .hero-content {
     position: absolute;
-    top: 1.05rem;
+    top: 0.5rem;
     left: 0.5rem;
     padding: 0.5rem;
     max-width: 100%;
@@ -220,7 +225,7 @@ hr {
 
 form {
     max-width: 500px;
-    margin: 0 auto 30px;
+    margin: 0 auto;
     padding: 20px;
 }
 
@@ -274,7 +279,7 @@ form .btn {
 
 .thank-you-box {
     text-align: center;
-    margin: 12% 15% 15% 15%;
+    margin: 12% 15%;
 }
 
 #contact {
@@ -294,10 +299,23 @@ form .btn {
     margin-bottom: 2rem;
 }
 
-.services-hero,
-.service-item {
+.services-hero {
+    padding: 0 1rem;
+}
+
+.services-hero h1,
+.service-item h2 {
     text-align: center;
-    padding: 0.5rem 10% 0;
+}
+
+.services-hero p {
+    text-align: justify;
+}
+
+.service-item {
+    text-align: justify;
+    /* padding: 0.5rem 10% 0; */
+    padding: 0 1rem;
 }
 
 .why-choose-us {
@@ -305,7 +323,7 @@ form .btn {
 }
 
 .why-choose-us h2 {
-    padding: 0.5rem;
+    padding: 0.5rem 1rem;
     margin: 0;
     text-align: center;
 }
@@ -314,6 +332,7 @@ form .btn {
     height: auto;
     width: 100%;
     position: relative;
+    padding: 0;
 }
 
 #why-choose-us-div {
@@ -325,7 +344,7 @@ form .btn {
 
 .why-choose-us ul {
     list-style: none;
-    padding: 0 1rem 0 1rem;
+    padding: 0 1rem;
 }
 
 .why-choose-us li {
@@ -335,14 +354,13 @@ form .btn {
 
 .call-to-action {
     text-align: center;
-    padding: 2rem 0 2rem 0;
+    /* padding: 2rem 0 2rem 0; */
 }
 
 /* small mobile devices (mobile devices, 320px and up) */
 @media screen and (min-width: 320px) {
 
 .hero {
-    background: url("../images/hero-image.jpeg") center/cover no-repeat;
     background-position: 75%;
 }
 
@@ -353,8 +371,6 @@ form .btn {
 
 /* Hero */
 .hero-content {
-    position: absolute;
-    top: 2rem;
     font-size: 2.3rem;
 }
 
@@ -443,7 +459,7 @@ hr {
 @media screen and (min-width: 1440px) {
 
 hr {
-    width: 61%;
+    width: 55%;
 }
 
 /* Hero */
