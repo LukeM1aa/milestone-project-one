@@ -100,9 +100,8 @@ section {
 /* Navbar */
 
 .logo {
-    max-height: 89px;
+    max-height: 4.4em;
     width: auto;
-    padding: 1.5px;
 }
 
 .navbar {
@@ -130,17 +129,15 @@ section {
 
 .hero-content {
     position: absolute;
-    top: 0.5rem;
-    left: 0.5rem;
-    padding: 0.5rem;
+    top: 0.5em;
+    left: 0.3em;
     max-width: 100%;
-    font-size: 2rem;
     color: white;
 }
 
 .hero .btn {
     position: absolute;
-    bottom: 1rem;
+    bottom: 1em;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -156,9 +153,9 @@ section {
 
 .appliance-img {
     background-color: var(--content-background);
-    height: 135px;
+    height: 9em;
     width: auto;
-    margin: 10px;
+    margin: 0.5em;
     border-radius: 8%;
 }
 
@@ -389,12 +386,6 @@ form .btn {
 
 .hero {
     height: 50vh;
-}
-
-/* Appliances */
-
-.appliance-img {
-    height: 165px;
 }
 
 /* Customer reviews */
