@@ -152,9 +152,10 @@ main {
 .hero-content {
     position: absolute;
     top: 0.5em;
-    left: 0.3em;
+    left: 0.2em;
     max-width: 100%;
     color: white;
+    font-size: clamp(2rem, 8.2vw, 11rem);
 }
 
 .hero .btn {
@@ -171,6 +172,7 @@ main {
     flex-flow: row wrap;
     justify-content: center;
     text-align: center;
+    padding-top: 1.5rem;
 }
 
 .appliance-img {
@@ -372,20 +374,10 @@ form .btn {
 /* Large mobile devices (Large mobile, 425px and up) */
 @media screen and (min-width: 425px) {
 
-/* Hero */
-.hero-content {
-    font-size: 2.3rem;
-}
-
 }
 
 /* Tablet devices (tablet, 768px and up) */
 @media screen and (min-width: 768px) {
-
-/* Hero */
-.hero-content {
-    font-size: 3.9rem;
-}
 
 .hero {
     height: 50vh;
@@ -415,10 +407,6 @@ hr {
 }
 
 /* Hero */
-.hero-content {
-    font-size: 5.2rem;
-    top: 0;
-}
 
 .hero {
     height: 55vh;
@@ -446,11 +434,6 @@ hr {
     width: 55%;
 }
 
-/* Hero */
-.hero-content {
-    font-size: 7.3rem;
-}
-
 /* Customer reviews */
 
 .carousel-caption {
@@ -468,4 +451,18 @@ hr {
     padding: 0.5em 20% 0;
 }
 
+}
+
+/* desktop devices ( desktop devices, 2560px and up) */
+@media screen and (min-width: 2560px) {
+
+/* Hero image */
+.hero {
+    background-position: 70% 20%;
+}
+
+/* Customer reviews */
+
+.carousel-item img {
+    right: -125em;
 }
