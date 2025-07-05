@@ -124,7 +124,7 @@ section {
     height: 35vh;
     width: auto;
     margin: 0;
-    color: white;
+    background-position: 75%;
 }
 
 .hero-content {
@@ -163,19 +163,20 @@ section {
 
 /* override bootstrap styling to change the carousel indicator buttons into dots, code taken from stack overlow by Bashid https://stackoverflow.com/questions/70819649/how-can-i-change-bootstrap-5-carousel-indicators-into-dots/71997944*/
 .carousel .carousel-indicators button {
-    width: 10px;
-    height: 10px;
+    width: 1em;
+    height: 1em;
     border-radius: 100%;
-/* custom css */
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 0 0.5em;
     background-color: var(--accent-color);
 }
 
 .carousel-caption {
     text-align: left;
-    left: 0.9rem;
-    top: 2rem;
+    left: 0.5em;
+    top: 4em;
+    right: 0.5em;
+    padding: 0;
+    bottom: 4em;
 }
 
 .carousel-caption h2 {
@@ -191,14 +192,10 @@ section {
 }
 
 .carousel-item img {
-    height: 400px;
+    height: 25em;
     width: auto;
-    position: relative;
-    right: -455px;
-}
-
-.review-star {
-    margin-bottom: 8px;
+    position: inherit;
+    right: -50em;
 }
 
 /* About us */ 
@@ -354,16 +351,6 @@ form .btn {
 
 .call-to-action {
     text-align: center;
-    /* padding: 2rem 0 2rem 0; */
-}
-
-/* small mobile devices (mobile devices, 320px and up) */
-@media screen and (min-width: 320px) {
-
-.hero {
-    background-position: 75%;
-}
-
 }
 
 /* Large mobile devices (Large mobile, 425px and up) */
@@ -394,10 +381,6 @@ form .btn {
     font-size: 3rem;
 }
 
-.carousel-item img {
-    right: -750px;
-}
-
 /* About us */
 
 #about-us h2 {
@@ -422,18 +405,16 @@ hr {
 /* Hero */
 .hero-content {
     font-size: 5.2rem;
-    left: 0.2em;
 }
 
 .hero {
     height: 45vh;
-    background: url("../images/hero-image.jpeg") 10% 26% / cover no-repeat;
 }
 
 /* Customer reviews */
 
 .carousel-item img {
-    right: -560px;
+    right: -36em;
 }
 
 /* Our services */
@@ -467,12 +448,12 @@ hr {
 
 /* Customer reviews */
 
-.carousel-item img {
-    right: -990px;
+.carousel-caption {
+    margin-right: 26em;
 }
 
-.carousel-caption {
-    margin-right: 300px;
+.carousel-item img {
+    right: -60em;
 }
 
 /* About us */
