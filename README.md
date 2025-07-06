@@ -99,7 +99,7 @@ As a **busy homeowner** I want to:
 
 ## Design Choices
 
-### Colour Scheme
+### Colour Palette
 
 The following [colour palette](assets/colour-palette/colour-palette.png) is generated via [Coolors.co](https://coolors.co):
 
@@ -119,7 +119,7 @@ These colours have been chosen to convey trust, clarity, and a clean modern look
 The colour palette has been chosen with the aim to meet [WCAG 2.1](https://www.w3.org/TR/WCAG21) AA contrast requirements for readability and accessibility:
 
 - **Primary #1B2A41** on **backgrounds #F5F5F5** provides strong constrast for headings and key UI elements (12.2:1 contrast ratio / AAA WCAG)
-- **Body text #333333** on **backgroudns #F5F5F5** meets recommended contrast for standard text (15.2:1 contract ratio / AAA WCAG)
+- **Body text #333333** on **backgrounds #F5F5F5** meets recommended contrast for standard text (15.2:1 contract ratio / AAA WCAG)
 - **Accent #FF6B35** is used for buttons and calls to action, always paired with sufficient contrast (e.g. white on orange buttons)
 - Small orange text on light backgrounds will be avoided to maintain readability
 
@@ -160,13 +160,13 @@ Where possible:
 
 #### Favicon
 
-Favicon chosen to match elements of the colour palette and give a clean modern look suitable for an appliance repair business - favicon imported via Fontawesome.com.
+Favicon chosen to match elements of the colour palette and give a clean modern look suitable for an appliance repair business - favicon imported via [Fontawesome.com.](fontawesome.com)
 
 ![Washing Machine](assets/favicon/washing-machine.png) - 20x20 PNG file
 
 #### Logo
 
-The business logo was used in the navigation bar and across key pages - designed and generated via Canva.com.
+The business logo was used in the navigation bar and across key pages - designed and generated via [Canva.com.](canva.com)
 
 ![Business logo](assets/images/logo.svg)
 
@@ -182,10 +182,12 @@ CSS
 ## Wireframes
 The wireframes represent the core pages of the appliance repair website, designed to work across larger devices **>769px**, tablet **<768px**, and mobile **<478px** devices. They ensure quick access to booking, contact, and service information. 
 
-### Home Page
+<details>
+<summary>### Home Page</summary>
 Features appliance categories, booking button, reviews, and contact info. Mobile devices are optimised for thumb-friendly navigation with quick access to booking and contacts.
 
 ![Home Wireframes](assets/wireframes/home-page.png)
+</summary>
 
 ### Our Services Page
 Lists individual services (e.g. oven repairs) with descriptions and images, plus a "Contact Us" button. Mobile layout stacks sevice info for easy scrolling.
@@ -196,6 +198,11 @@ Lists individual services (e.g. oven repairs) with descriptions and images, plus
 Simple form with name, email, and message fields, plus a clear "Send" button.
 
 ![Contact Us Wireframes](assets/wireframes/contact-us.png)
+
+### Action Page
+Acknowledges the submission of the form, plus a clear "Return Home" button.
+
+![Action Wireframes](assets/wireframes/action.png)
 
 ---
 
