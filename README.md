@@ -101,12 +101,15 @@ As a **busy homeowner** I want to:
 
 ### Colour Scheme
 
-The following [colour palette](assets/colour-scheme/colour-scheme.png) is generated via [Coolors](https://coolors.co/1b2a41-4a4a4a-ff6b35-f5f5f5-333333):
+The following [colour palette](assets/colour-palette/colour-palette.png) is generated via [Coolors.co](https://coolors.co):
 
-- **Primary:** Oxford Blue `#1B2A41`
-- **Secondary:** Davy's Gray `#4A4A4A`
+- **Primary Text:** Oxford Blue `#1B2A41`
 - **Accent:** Orange (Crayola) `#FF6B35`
+- **Secondary Accent:** Giants Orange `#FA591F`
+- **Hero Accent:** Celeste `#9BE6EC`
 - **Background:** White Smoke `#F5F5F5`
+- **Navigation/ Footer:** Anti-flash White `#ECECEC`
+- **Content Background:** Silver `#B2B2B2`
 - **Body Text:** Jet `#333333`
 
 These colours have been chosen to convey trust, clarity, and a clean modern look suitable for an appliance repair business.
@@ -115,8 +118,8 @@ These colours have been chosen to convey trust, clarity, and a clean modern look
 
 The colour palette has been chosen with the aim to meet [WCAG 2.1](https://www.w3.org/TR/WCAG21) AA contrast requirements for readability and accessibility:
 
-- **Primary #1B2A41** on **light backgrounds #F5F5F5** provides strong constrast for headings and key UI elements (12.2:1 contrast ratio / AAA WCAG)
-- **Body text #333333** on **light backgroudns #F5F5F5** meets recommended contrast for standard text (15.2:1 contract ratio / AAA WCAG)
+- **Primary #1B2A41** on **backgrounds #F5F5F5** provides strong constrast for headings and key UI elements (12.2:1 contrast ratio / AAA WCAG)
+- **Body text #333333** on **backgroudns #F5F5F5** meets recommended contrast for standard text (15.2:1 contract ratio / AAA WCAG)
 - **Accent #FF6B35** is used for buttons and calls to action, always paired with sufficient contrast (e.g. white on orange buttons)
 - Small orange text on light backgrounds will be avoided to maintain readability
 
@@ -157,13 +160,13 @@ Where possible:
 
 #### Favicon
 
-Favicon chosen to match elements of the colour palette and give a clean modern look suitable for an appliance repair business.
+Favicon chosen to match elements of the colour palette and give a clean modern look suitable for an appliance repair business - favicon imported via Fontawesome.com.
 
 ![Washing Machine](assets/favicon/washing-machine.png) - 20x20 PNG file
 
 #### Logo
 
-The business logo was used in the navigation bar and across key pages.
+The business logo was used in the navigation bar and across key pages - designed and generated via Canva.com.
 
 ![Business logo](assets/images/logo.svg)
 
@@ -174,7 +177,7 @@ The business logo was used in the navigation bar and across key pages.
 
 CSS
 
-```.logo {height: 150px; width: auto;}```
+```.logo {height: 4.4em; width: auto;}```
 
 ## Wireframes
 The wireframes represent the core pages of the appliance repair website, designed to work across larger devices **>769px**, tablet **<768px**, and mobile **<478px** devices. They ensure quick access to booking, contact, and service information. 

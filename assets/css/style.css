@@ -9,14 +9,13 @@
     --body-font: "Inter", sans-serif;
     /* Coolors.com generated colour palette */
     --primary-color: #1B2A41; /* oxford blue */
-    --secondary-color: #4A4A4A; /* davy's gray */
     --accent-color: #FF6B35; /* orange (crayola) */
-    --secondary-accent: #fa591f; /*darker orange */
-    --hero-accent: #9be6ec; /* soft cyan */
+    --secondary-accent: #fa591f; /*gaints orange */
+    --hero-accent: #9be6ec; /* celeste */
     --body-color: #333333; /* jet */
     --background-color: #f5f5f5; /* white smoke*/
-    --nav-color: #ECECEC; /* very light grey*/
-    --content-background: #b2b2b222; /* dark grey */
+    --nav-color: #ECECEC; /* anti-flash white */
+    --content-background: #b2b2b222; /* silver */
 }
 
 /* Global Styles */
