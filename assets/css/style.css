@@ -359,14 +359,14 @@ form .btn {
     border-radius: 90em 80em 40em 100em;
 }
 
+.why-choose-us {
+    background-color: var(--content-background);
+}
+
 .why-choose-us h2 {
     padding: 0.5em;
     margin: 0;
     text-align: center;
-}
-
-.why-choose-us {
-    background-color: var(--content-background);
 }
 
 .why-choose-us img {
@@ -392,6 +392,10 @@ form .btn {
     padding: 0.5em 0;
     vertical-align: middle;
 } 
+
+.fa-circle-check {
+    color: var(--accent-color);
+}
 
 .call-to-action {
     padding-top: 1em;
