@@ -27,17 +27,15 @@ body {
     line-height: 1.5; /* Improves readability*/
     color: var(--body-color);
     background-color: var(--background-color);
-    /* Code by Greg Ord-Hume to remove white space under the footer */
+    min-height: 100vh; /* Code by Greg Ord-Hume to remove white space under the footer */
+    display: flex; /* Code by Greg Ord-Hume to remove white space under the footer */
+    flex-direction: column; /* Code by Greg Ord-Hume to remove white space under the footer */
     /* REMOVE ONCE IN README https://greggod.medium.com/css-do-not-put-height-100-on-the-body-html-e36bda3551b3 */
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
 } 
 
-/* Flex: 1 auto; Code by Greg Ord-Hume - Medium to remove white space under the footer */
-/* REMOVE ONCE IN README https://greggod.medium.com/keep-that-damn-footer-at-the-bottom-959796fe3d08 */
 body main {
-    flex: 1 auto;
+    flex: 1 auto; /* Flex: 1 auto; Code by Greg Ord-Hume - Medium to remove white space under the footer */
+    /* REMOVE ONCE IN README https://greggod.medium.com/keep-that-damn-footer-at-the-bottom-959796fe3d08 */
     margin-top: 7em; /* Add margin at the top to prevent content from being covered by the header */
 }
 
@@ -47,9 +45,10 @@ section {
 
 h1 {
     font-family: var(--primary-font);
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: 500;
     color: var(--primary-color);
+    text-align: center;
 }
 
 h2 {
@@ -64,7 +63,7 @@ h2 {
     padding: clamp(0.5em, 1vw, 0.75em) clamp(1em, 2vw, 1.5em);
     font-size: clamp(0.9em, 1vw + 0.8em, 1.2em);
     background-color: var(--accent-color);
-    color: white;
+    color: var(--background-color);
     text-decoration: none;
     border: none;
 }
@@ -94,8 +93,7 @@ nav {
 /* Hero Section */
 .hero {
     position: relative;
-    /* Adobe Stock Images JPEG File */
-    background: url("../images/hero-image.jpeg") center/cover no-repeat;
+    background: url("../images/hero-image.jpeg") center/cover no-repeat; /* Adobe Stock Images JPEG File */
     height: 30vh;
     width: auto;
     margin: 0;
@@ -125,7 +123,7 @@ nav {
     flex-flow: row wrap;
     justify-content: center;
     text-align: center;
-    padding-top: 1.5rem;
+    padding-top: 1.7rem;
 }
 
 .appliance-img {
@@ -136,17 +134,15 @@ nav {
     border-radius: 15%;
 }
 
-/* Index.html - Customer Reviews */
-
-/* Code by Bashid - Stack Overflow to change carousel indicators into dots */
-/* REMOVE ONCE IN README https://stackoverflow.com/questions/70819649/how-can-i-change-bootstrap-5-carousel-indicators-into-dots/71997944 */
-.carousel .carousel-indicators button {
+/* Customer Review Section */
+.carousel .carousel-indicators button { /* Code by Bashid - Stack Overflow to change carousel indicators into dots */
     width: 1em;
     height: 1em;
     border-radius: 100%;
     margin: 0 0.5em;
     background-color: var(--accent-color);
 }
+/* REMOVE ONCE IN README https://stackoverflow.com/questions/70819649/how-can-i-change-bootstrap-5-carousel-indicators-into-dots/71997944 */
 
 .carousel-caption {
     text-align: left;
@@ -159,7 +155,7 @@ nav {
 
 .carousel-caption h2 {
     text-wrap: balance;
-    font-size: clamp(2rem, 6.4vw, 3.5rem);
+    font-size: clamp(2rem, 6.4vw, 3rem);
 }
 
 .carousel-caption p {
@@ -174,15 +170,14 @@ nav {
     height: 25em;
     width: auto;
     position: inherit;
-    right: -50em;
+    right: -50em
 }
 
 .fa-star {
     color: var(--hero-accent);
 }
 
-/* Index.html - About us */ 
-
+/* About Us Section */ 
 #about-us h2 {
     text-align: center;
 }
@@ -200,16 +195,11 @@ nav {
     margin: 1em;
 }
 
-/* Contact-us.html - form */
-
+/* Contact-us.html */
 form {
     max-width: 30em;
     margin: 0 auto;
     padding: 2em;
-}
-
-form h2 {
-    text-align: center;
 }
 
 label {
@@ -219,6 +209,8 @@ label {
     color: #555;
 }
 
+/* REMOVE ONCE IN README Support targeting input fields W3 Schools */
+/* REMOVE ONCE IN README https://www.w3schools.com/css/css_form.asp */
 input[type=text],
 input[type=email],
 input[type=tel],
@@ -254,7 +246,6 @@ form .btn {
 }
 
 /* Action-page.html */
-
 .thank-you-box {
     text-align: center;
     margin: 12% 15%;
@@ -272,15 +263,8 @@ form .btn {
 }
 
 /* Our-services.html */
-
 .services-heading {
-    text-align: center;
     padding: 0.5em 0 0;
-    font-size: 3rem;
-}
-
-.services p {
-    margin: 0 1rem;
 }
 
 .services-grid {
@@ -359,59 +343,54 @@ form .btn {
 /* Tablet devices (tablet, 768px and up) */
 @media screen and (min-width: 768px) {
 
+/* Index.html */
+/* Hero section */
 .hero {
     background-position: center 33%;
 }
 
-/* About us */
-
+/* About-us.html */
 #about-us h2 {
     font-size: 3rem;
-
 }
 
-/* Our services */
-
+/* Our-services.html */
 .services p {
     margin: 0 5em;
 }
-
 }
 
 /* Large devices (laptops and desktops, 1024px and up) */
 @media screen and (min-width: 1024px) {
 
-/* Hero */
-
+/* Index.html */
+/* Hero Section */
 .hero {
     background-position: center 23%;
 }
 
-/* Customer reviews */
-
+/* Customer reviews section */
 .carousel-item img {
     right: -36em;
 }
 
-/* Appliances */
-
+/* Our-services.html */
 .services p {
     margin: 0 10em;
 }
-
 }
 
 /* XL devices (XL devices, 1440px and up) */
 @media screen and (min-width: 1440px) {
 
+/* Index.html */
 /* Hero Section */
 .hero {
     background-position: center 20%;
     height: 30em;
 }
 
-/* Customer reviews */
-
+/* Customer reviews section */
 .carousel-caption {
     margin-right: 26em;
 }
@@ -420,10 +399,8 @@ form .btn {
     right: -60em;
 }
 
-/* Our services */
-
+/* Our-services.html */
 .services p {
     margin: 0 23em;
 }
-
 }
