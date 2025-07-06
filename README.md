@@ -252,7 +252,7 @@ Acknowledges the submission of the form, plus a clear "Return Home" button.
 - Consistent **navigation bar** with links to *Home*, *About Us*, *Our Services*, *Contact Us*.
 - **Fully responsive** - transforms into a hamburger toggler on smaller screens.
 - The **active page link is highlighted** so users can easily see where they are.
-![Screenshot](#navbar-logo-feature.png)
+![Screenshot](assets/readme-references/navbar-logo-feature.png)
 </details>
 
 <details>
@@ -260,7 +260,7 @@ Acknowledges the submission of the form, plus a clear "Return Home" button.
 
 - Large, engaging **hero image** on the home page.
 - Prominent **call now button** encourages quick contact.
-![Screenshot](#hero-feature.png)
+![Screenshot](assets/readme-references/hero-feature.png)
 </details>
 
 <details>
@@ -268,7 +268,7 @@ Acknowledges the submission of the form, plus a clear "Return Home" button.
 
 - Key appliance icons (e.g. oven, fridge, dishwasher, laundry) displayed on the home page.
 - Directs users to the **Our Services** page for more details.
-![Screenshot](#home-appliances-feature.png)
+![Screenshot](assets/readme-references/home-appliances-feature.png)
 </details>
 
 <details>
@@ -276,32 +276,32 @@ Acknowledges the submission of the form, plus a clear "Return Home" button.
 
 - A **testimonial slider** displays customer feedback.
 - Includes **carousel indicators** to allow users to easily navigate between reviews.
-![Screenshot](#customer-reviews-feature)
+![Screenshot](assets/readme-references/customer-reviews-feature)
 </details>
 
 <details>
 <summary>About Us Section (Home Page)</summary>
 
 - Introduces the team and company values to build trust.
-![Screenshot](#about-us-feature.png)
+![Screenshot](assets/readme-references/about-us-feature.png)
 </details>
 
 <details>
 <summary>Our Services & Why Choose Us</summary>
 
 - Details repair services offered for different appliances.
-![Screenshot](#our-services-feature.png)
+![Screenshot](assets/readme-references/our-services-feature.png)
 
 - Includes a **Why Choose Us** section highlighting key benefits (e.g. local engineers, transparent pricing).
 - Features a **Contact Us Now Button** for easy booking.
-![Screenshot](#why-us-feature.png)
+![Screenshot](assets/readme-references/why-us-feature.png)
 </details>
 
 <details>
 <summary>Contact Us Form</summary>
 
 - Form captures name, email, phone number, appliance type, message, and preferred appointment date if required.
-![Screenshot](#form-feature.png)
+![Screenshot](assets/readme-references/form-feature.png)
 </details>
 
 <details>
@@ -309,14 +309,14 @@ Acknowledges the submission of the form, plus a clear "Return Home" button.
 
 - Confirms form submission with a friendly thank you message. 
 - Includes a **Back to Home button**.
-![Screenshot](#thank-you-feature.png)
+![Screenshot](assets/readme-references/thank-you-feature.png)
 </details>
 
 <details>
 <summary>Footer & Call to Action</summary>
 
 - **Footer appears on all pages**, containing contact details, opening times, and a repeated **call-to-action button**.
-![Screenshot](#footer-feature.png)
+![Screenshot](assets/readme-references/footer-feature.png)
 </details>
 
 ## Future Enhancements
