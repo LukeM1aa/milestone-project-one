@@ -276,7 +276,7 @@ Acknowledges the submission of the form, plus a clear "Return Home" button.
 
 - A **testimonial slider** displays customer feedback.
 - Includes **carousel indicators** to allow users to easily navigate between reviews.
-![Screenshot](assets/readme-references/screenshots/customer-reviews-feature)
+![Screenshot](assets/readme-references/screenshots/customer-reviews-feature.png)
 </details>
 
 <details>
@@ -320,9 +320,43 @@ Acknowledges the submission of the form, plus a clear "Return Home" button.
 </details>
 
 ## Future Enhancements
-- Add a booking system with calendar
-- Include a blog or tips section
-- Admin login for managing services and pricing
+
+Planned improvements have been tracked and prioritised using **GitHub Projects**, helping to manage progress and link user stories to development work.
+
+[*GitHub Projects board managing tasks and priorities.*](assets/readme-references/screenshots/git-projects.png)
+
+### Integrate External Customer Review Link
+
+#### User Story:
+As a customer, I want to leave a review easily via a trusted platform (e.g. Trustpilot), so I can share my experience and help others decide.
+[Screenshot from *GitHub Projects*](assets/readme-references/screenshots/review-task.png)
+
+#### Enhancement:
+Add a visible, accessible button or link on the home page and contact page that directs customers to a trusted external review site (such as Trustpilot or Google Reviews).
+
+### Show Pricing / Quote Process
+
+#### User Story:
+As a customer, I want to see clear pricing or understand how to request a quote, so I know what to expect before booking.
+
+#### Enhancement:
+Include a dedicated section or page explaining how quotes are provided, or list example pricing for common repairs.
+
+### Add Online Booking
+
+#### User Story:
+As a customer, I want to book a repair appointment online, so I can confirm a date and time without having to call.
+
+#### Enhancement:
+Build a basic booking form or integrate a simple calendar tool to accept appointments.
+
+### Educational Content Page
+
+#### User Story:
+As a customer, I want tips and advice about appliance care, so I can maintain my appliances and prevent breakdowns.
+
+#### Enhancement:
+Add a page with articles or FAQs about appliance care, common faults, and prevention tips.
 
 ---
 
