@@ -183,26 +183,32 @@ CSS
 The wireframes represent the core pages of the appliance repair website, designed to work across larger devices **>769px**, tablet **<768px**, and mobile **<478px** devices. They ensure quick access to booking, contact, and service information. 
 
 <details>
-<summary>### Home Page</summary>
+<summary>Home Page</summary>
 Features appliance categories, booking button, reviews, and contact info. Mobile devices are optimised for thumb-friendly navigation with quick access to booking and contacts.
 
 ![Home Wireframes](assets/wireframes/home-page.png)
 </summary>
 
-### Our Services Page
+<details>
+<summary>Our Services Page</summary>
 Lists individual services (e.g. oven repairs) with descriptions and images, plus a "Contact Us" button. Mobile layout stacks sevice info for easy scrolling.
 
 ![Our Services Wireframes](assets/wireframes/our-services.png)
+</details>
 
-### Contact Us Page
+<details>
+<summary>>Contact Us Page</summary>
 Simple form with name, email, and message fields, plus a clear "Send" button.
 
 ![Contact Us Wireframes](assets/wireframes/contact-us.png)
+</details>
 
-### Action Page
+<details>
+<summary>Action Page</summary>
 Acknowledges the submission of the form, plus a clear "Return Home" button.
 
 ![Action Wireframes](assets/wireframes/action.png)
+</details>
 
 ---
 
