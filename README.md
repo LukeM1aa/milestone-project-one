@@ -8,14 +8,13 @@ A clean, modern website for a local appliance repair company specialising in fri
 
 ## Table of Contents
 1. [Project Overview](#project-overview)
-    * [Developer and Business Goals](#developer-and-business-goals)
+    - [Developer and Business Goals](#developer-and-business-goals)
 2. [User Experience (UX)](#user-experience-(ux))
-    + [User Stories](#user-stories)
+    - [User Stories](#user-stories)
     - [Design Choices](#design-choices)
         - [Colour Palette](#colour-palette)
         - [Typograhpy](#typograhpy)
         - [Imagery](#imagery)
-        - [Wireframes](#wireframes)
     - [Wireframes](#wireframes)
 3. [Features](#features)
     - [Existing Features](#existing-features)
@@ -222,7 +221,7 @@ Acknowledges the submission of the form, plus a clear "Return Home" button.
 - Clean, mobile-friendly design
 - Services section (fridge repair, washing machine repai, etc)
 - Testimonials / review section
-- Hero banner with business info and call to action
+- Hero banner with call to action
 
 ## Future Enhancements
 - Add a booking system with calendar
@@ -232,11 +231,34 @@ Acknowledges the submission of the form, plus a clear "Return Home" button.
 ---
 
 # Technologies Used
+
+## Languages
 - HTML5
 - CSS3
+
+# Frameworks, Libraries & Programs Used
+- Bootstrap v5.3
+    - Used to ensure responsiveness and provide styling across the website.
 - Google Fonts
+    - The 'Host Grotesk', 'Source Code Pro', and 'Inter' fonts were imported into the `style.css` file and used throughout the site.
 - Font Awesome
-- Balsamiq Wireframes
+    - Included on all pages to provide icons that enhanced aesthetics and improve user experience.
+- jQuery
+    - Bundled with Bootstrap to make the navbar, carousel, and buttons responsive and enable smooth scroll functionality. 
+- Balsamiq
+    - Used to create wireframes during the design phase.
+- Git
+    - Used for version control, with commits made via Gitpod terminal. 
+- GitHub
+    - Hosted the projects code after being pushed from Git.
+- Adobe Stock
+    - Provided high-quality visuals and images used across the site. 
+- Canva
+    - Used to design the company logo. 
+- Coolors
+    - Used for generating the colour palette and initally review colour contrast for accessibility. 
+- Google Developer Tools
+    - Used to test and debug the site across different screen sizes, devices, and browsers to ensure responsiveness and performance.
 
 ---
 
