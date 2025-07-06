@@ -8,9 +8,9 @@ A clean, modern website for a local appliance repair company specialising in fri
 
 ## Table of Contents
 1. [Project Overview](#project-overview)
-    - [Developer and Business Goals](#developer-and-business-goals)
+    * [Developer and Business Goals](#developer-and-business-goals)
 2. [User Experience (UX)](#user-experience-(ux))
-    - [User Stories](#user-stories)
+    + [User Stories](#user-stories)
     - [Design Choices](#design-choices)
         - [Colour Palette](#colour-palette)
         - [Typograhpy](#typograhpy)
