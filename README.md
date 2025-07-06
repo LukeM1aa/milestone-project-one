@@ -7,30 +7,32 @@ A clean, modern website for a local appliance repair company specialising in fri
 ---
 
 ## Table of Contents
-1. [UX](#ux)
-    * [Project Overview](#project-overview)
-    * [Developer and Business Goals](#developer-and-business-goals)
-    * [User Stories](#user-stories)
-    * [Design Choices](#design-choices)
-    * [Wireframes](#wireframes)
-2. [Features](#features)
-    * [Existing Features](#existing-features)
-    * [Future Enhancements](#future-enhancements)
-3. [Technologies Used](#technologies-used)
-4. [Testing](#testing)
-5. [Deployement](#deployment)
-6. [Credits](#credits)
-    * [Content](#content)
-    * [Media](#media)
-    * [Code](#code)
-    * [Acknowledgement](#acknowledgement)
+1. [Project Overview](#project-overview)
+    - [Developer and Business Goals](#developer-and-business-goals)
+2. [User Experience (UX)](#user-experience-(ux))
+    - [User Stories](#user-stories)
+    - [Design Choices](#design-choices)
+        - [Colour Palette](#colour-palette)
+        - [Typograhpy](#typograhpy)
+        - [Imagery](#imagery)
+        - [Wireframes](#wireframes)
+    - [Wireframes](#wireframes)
+3. [Features](#features)
+    - [Existing Features](#existing-features)
+    - [Future Enhancements](#future-enhancements)
+4. [Technologies Used](#technologies-used)
+5. [Testing](#testing)
+6. [Deployement](#deployment)
+7. [Credits](#credits)
+    - [Content](#content)
+    - [Media](#media)
+    - [Code](#code)
+    - [Acknowledgement](#acknowledgement)
 
 
 ---
+# Project Overview
 
-# UX
-
-## Project Overview
 This website provides users with an easy way to: 
 - Learn about appliance repair services
 - Contact the business for quotes or bookings
@@ -43,6 +45,8 @@ It's designed to be clear, responsive, and user-friendly for all vistors.
 - Build trust through social proof (reviews, photos, videos)
 - Encourage quick action with easy contact options
 - Strengthen local precesence via targeted, helpful contact
+
+# User Experience (UX)
 
 ## User Stories
 As a **potential customer**, I want to:
@@ -197,7 +201,7 @@ Lists individual services (e.g. oven repairs) with descriptions and images, plus
 </details>
 
 <details>
-<summary>>Contact Us Page</summary>
+<summary>Contact Us Page</summary>
 Simple form with name, email, and message fields, plus a clear "Send" button.
 
 ![Contact Us Wireframes](assets/wireframes/contact-us.png)
