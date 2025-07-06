@@ -248,75 +248,75 @@ Acknowledges the submission of the form, plus a clear "Return Home" button.
 <details>
 <summary>Logo & Navigation</summary>
 
-[Screenshot](#navbar-logo-feature.png)
 - Clear **Service & Sales logo** on every page.
 - Consistent **navigation bar** with links to *Home*, *About Us*, *Our Services*, *Contact Us*.
 - **Fully responsive** - transforms into a hamburger toggler on smaller screens.
 - The **active page link is highlighted** so users can easily see where they are.
+![Screenshot](#navbar-logo-feature.png)
 </details>
 
 <details>
 <summary>Hero Image & Button</summary>
 
-[Screenshot](#hero-feature.png)
 - Large, engaging **hero image** on the home page.
 - Prominent **call now button** encourages quick contact.
+![Screenshot](#hero-feature.png)
 </details>
 
 <details>
 <summary>Appliances Section & Our Services Link</summary>
 
-[Screenshot](#home-appliances-feature.png)
 - Key appliance icons (e.g. oven, fridge, dishwasher, laundry) displayed on the home page.
 - Directs users to the **Our Services** page for more details.
+![Screenshot](#home-appliances-feature.png)
 </details>
 
 <details>
 <summary>Carousel for Customer Reviews</summary>
 
-[Screenshot](#customer-reviews-feature)
 - A **testimonial slider** displays customer feedback.
 - Includes **carousel indicators** to allow users to easily navigate between reviews.
+![Screenshot](#customer-reviews-feature)
 </details>
 
 <details>
 <summary>About Us Section (Home Page)</summary>
 
-[Screenshot](#about-us-feature.png)
 - Introduces the team and company values to build trust.
+![Screenshot](#about-us-feature.png)
 </details>
 
 <details>
 <summary>Our Services & Why Choose Us</summary>
 
-[Screenshot](#our-services-feature.png)
 - Details repair services offered for different appliances.
+![Screenshot](#our-services-feature.png)
 
-[Screenshot](#why-us-feature.png)
 - Includes a **Why Choose Us** section highlighting key benefits (e.g. local engineers, transparent pricing).
 - Features a **Contact Us Now Button** for easy booking.
+![Screenshot](#why-us-feature.png)
 </details>
 
 <details>
 <summary>Contact Us Form</summary>
 
-[Screenshot](#form-feature.png)
 - Form captures name, email, phone number, appliance type, message, and preferred appointment date if required.
+![Screenshot](#form-feature.png)
 </details>
 
 <details>
 <summary>Thank You Page</summary>
 
-[Screenshot](#thank-you-feature.png)
 - Confirms form submission with a friendly thank you message. 
 - Includes a **Back to Home button**.
+![Screenshot](#thank-you-feature.png)
 </details>
 
 <details>
 <summary>Footer & Call to Action</summary>
 
-[Screenshot](#footer-feature.png)
 - **Footer appears on all pages**, containing contact details, opening times, and a repeated **call-to-action button**.
+![Screenshot](#footer-feature.png)
 </details>
 
 ## Future Enhancements
