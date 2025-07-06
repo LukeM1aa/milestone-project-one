@@ -15,6 +15,7 @@ A clean, modern website for a local appliance repair company specialising in fri
         - [Colour Palette](#colour-palette)
         - [Typograhpy](#typograhpy)
         - [Imagery](#imagery)
+    - [Website Structure & Accessibility](#website-structure--accessibility)
     - [Wireframes](#wireframes)
 3. [Features](#features)
     - [Existing Features](#existing-features)
@@ -184,6 +185,29 @@ CSS
 
 ```.logo {height: 4.4em; width: auto;}```
 
+## Website Structure & Accessibility
+The **Service & Sales Appliance Repair** website is built with semantic HTML for clear structure and accessibility. 
+
+The website consists of 4 main pages and a section link:
+
+- **Home (Landing Page):** Introduces the business, highlights key services, and features a strong call-to-action.
+- **About Us (Section link):** Shares company background and commitment to customers.
+- **Our Services (Service Listing Page):** Details the appliance repair services offered, with clear categories (e.g. fridge, washing machine, oven repairs).
+- **Contact Us (Form):** Provides a contact form for easy customer enquiries. 
+- **Submission Confirmation (Acknowledgement Page):** Confirms that the user's form submission was successful, thanks them, offers next steps, and a link back home.
+
+Key features include:
+
+- **Semantic tags:** `<header>`, `<nav>`, `<main>`, `<section>`, and `<footer>` for logical page structure.
+- **Navigation:** Simple, consistent, with clear link text for easy use with screen readers. 
+- **Forms:** All inputs have linked `<labels>` elements, correct types (e.g. email), and logical tab order. 
+- **Images:** Informative images have meaningful `alt` text.
+- **Colour & Contrast:** Meets WCAG AA standards for readability.
+- **Responsive text:** Use relative units (rem, em, & %) to support scaling and zoom.
+- **Keyboard:** Visible focus states on links and buttons.
+
+Accessibility is part of the design, not an add-on.
+
 ## Wireframes
 The wireframes represent the core pages of the appliance repair website, designed to work across larger devices **>769px**, tablet **<768px**, and mobile **<478px** devices. They ensure quick access to booking, contact, and service information. 
 
@@ -246,19 +270,21 @@ Acknowledges the submission of the form, plus a clear "Return Home" button.
 - [Font Awesome](https://fontawesome.com/)
     - Included on all pages to provide icons that enhanced aesthetics and improve user experience.
 - [jQuery](https://getbootstrap.com/docs/5.3/getting-started/download/)
-    - Bundled with Bootstrap to make the navbar, carousel, and buttons responsive and enable smooth scroll functionality. 
+    - Bundled with Bootstrap to make the navbar, carousel, and buttons responsive and enable smooth scroll functionality.
+- [VS Code](https://code.visualstudio.com/)
+    - Visual Studio Code was used as the main code editor for writing and managing the project's HTML, CSS, and other files.
 - [Balsamiq Wireframes](https://balsamiq.com/?gad_source=1&gad_campaignid=203404003&gbraid=0AAAAAD3BuzO1_MfAH220pB2sjY8-SH4XY&gclid=Cj0KCQjwvajDBhCNARIsAEE29WqRr6MNJNBlZ2P9yCYgdpEVjwPQac8uQL0IlC2WZUqABjTq6pGe_eQaAismEALw_wcB)
     - Used to create wireframes during the design phase.
 - [Git](https://git-scm.com/)
-    - Used for version control, with commits made via Gitpod terminal. 
+    - Used for version control, with commits made via Gitpod terminal.
 - [GitHub](https://github.com/)
-    - Hosted the projects code after being pushed from Git.
+    - Hosted the projects code after being pushed from Git. GitHub Projects was used to manage tasks, track progress, and organise workflow during development.
 - [Adobe Stock](https://stock.adobe.com/uk/)
-    - Provided high-quality visuals and images used across the site. 
+    - Provided high-quality visuals and images used across the site.
 - [Canva](https://www.canva.com/)
-    - Used to design the company logo. 
+    - Used to design the company logo.
 - [Coolors](https://coolors.co/)
-    - Used for generating the colour palette and initally review colour contrast for accessibility. 
+    - Used for generating the colour palette and initally review colour contrast for accessibility.
 - [Google Developer Tools](https://developer.chrome.com/docs/devtools)
     - Used to test and debug the site across different screen sizes, devices, and browsers to ensure responsiveness and performance.
 
