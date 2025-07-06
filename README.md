@@ -187,7 +187,7 @@ The wireframes represent the core pages of the appliance repair website, designe
 Features appliance categories, booking button, reviews, and contact info. Mobile devices are optimised for thumb-friendly navigation with quick access to booking and contacts.
 
 ![Home Wireframes](assets/wireframes/home-page.png)
-</summary>
+</details>
 
 <details>
 <summary>Our Services Page</summary>
