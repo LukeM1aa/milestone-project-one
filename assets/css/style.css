@@ -20,6 +20,10 @@
 }
 
 /* Global Styles */
+html {
+    scroll-padding-top: 7.5em;
+}
+
 html,
 body {
     font-family: var(--body-font);
