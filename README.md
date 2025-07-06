@@ -323,13 +323,21 @@ Acknowledges the submission of the form, plus a clear "Return Home" button.
 
 Planned improvements have been tracked and prioritised using **GitHub Projects**, helping to manage progress and link user stories to development work.
 
-![*GitHub Projects board managing tasks and priorities.*](assets/readme-references/screenshots/git-projects.png)
+<details>
+<summary>GitHub Projects board managing tasks and priorities.</summary>
+
+![GitHub Projects](assets/readme-references/screenshots/git-projects.png)
+</details>
 
 ### Integrate External Customer Review Link
 
 #### User Story:
 As a customer, I want to leave a review easily via a trusted platform (e.g. Trustpilot), so I can share my experience and help others decide.
-![Screenshot from *GitHub Projects*](assets/readme-references/screenshots/review-task.png)
+<details>
+<summary>Screenshot from *GitHub Projects</summary>
+
+![Screenshot](assets/readme-references/screenshots/review-task.png)
+</details>
 
 #### Enhancement:
 Add a visible, accessible button or link on the home page and contact page that directs customers to a trusted external review site (such as Trustpilot or Google Reviews).
