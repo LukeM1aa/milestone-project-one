@@ -168,6 +168,7 @@ nav {
 .carousel-caption h2 {
     text-wrap: balance;
     font-size: clamp(2rem, 6.4vw, 3rem);
+    margin-top: 0.2em;
 }
 
 .carousel-caption p {
@@ -225,7 +226,7 @@ label {
 /* REMOVE ONCE IN README https://www.w3schools.com/css/css_form.asp */
 input[type=text],
 input[type=email],
-input[type=number],
+input[type=tel],
 input[type=date],
 select,
 textarea {
@@ -240,7 +241,7 @@ textarea {
 
 input[type=text]:focus,
 input[type=email]:focus,
-input[type=number]:focus,
+input[type=tel]:focus,
 input[type=date]:focus,
 select:focus,
 textarea:focus {

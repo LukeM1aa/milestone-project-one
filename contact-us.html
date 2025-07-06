@@ -65,7 +65,7 @@
                 <label for="email">Email Address</label>
                 <input type="email" id="email" name="email" required>
                 <label for="phone">Phone Number</label>
-                <input type="number" id="phone" name="phone" required>
+                <input type="tel" id="phone" name="phone" required>
                 <label for="appliance">Appliance Type</label>
                 <select id="appliance" name="appliance" required>
                     <option value="">Select an appliance</option>
@@ -80,7 +80,7 @@
                 <label for="preferred-date">Preferred Appointment Date</label>
                 <input type="date" id="preferred-date" name="preferred-date">
                  <!-- Bootstap v5.3 button -->
-                <input type="submit" form="action-form" class="btn btn-primary btn-lg rounded-pill form-btn" value="Send Request">
+                <input type="submit" form="action-form" class="btn btn-secondary btn-lg rounded-pill form-btn" value="Send Request">
             </form>
         </main>
         <!-- Footer Section -->
@@ -97,8 +97,12 @@
                         <!-- &nbsp; used to include a blank space code from W3 Schools - HTML Character Entities -->
                         <!-- Fontawesome.com Icons -->
                         <address>
-                            <i class="fa-solid fa-location-dot" style="color: var(--primary-color)"></i> 123 Address<br>&nbsp;&nbsp;
-                            &nbsp;&nbsp;Book Address<br>&nbsp;&nbsp;&nbsp;&nbsp;AA12 3BB
+                            <i class="fa-solid fa-location-dot" style="color: var(--primary-color)"></i> 
+                            123 Appliance Street
+                            <br>&nbsp;&nbsp;&nbsp;
+                            Applianceshire
+                            <br>&nbsp;&nbsp;&nbsp;
+                            AA12 3BB
                         </address>
                     </div>
                     <!-- Opening times -->
@@ -132,7 +136,7 @@
                     </div>
                     <!-- Bootstap v5.3 button -->
                     <div class="col-12">
-                        <a class="btn btn-primary btn-lg rounded-pill" href="tel:01234567890" role="button">
+                        <a class="btn btn-secondary btn-lg rounded-pill" href="tel:01234567890" role="button">
                         <!-- Fontawesome.com phone icon -->
                         <i class="fa-solid fa-phone"></i> Call now
                         </a>
