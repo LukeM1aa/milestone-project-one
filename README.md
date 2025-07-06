@@ -20,6 +20,8 @@ A clean, modern website for a local appliance repair company specialising in fri
     - [Existing Features](#existing-features)
     - [Future Enhancements](#future-enhancements)
 4. [Technologies Used](#technologies-used)
+    - [Languages](#languages)
+    - [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
 5. [Testing](#testing)
 6. [Deployement](#deployment)
 7. [Credits](#credits)
@@ -236,28 +238,28 @@ Acknowledges the submission of the form, plus a clear "Return Home" button.
 - HTML5
 - CSS3
 
-# Frameworks, Libraries & Programs Used
-- Bootstrap v5.3
+## Frameworks, Libraries & Programs Used
+- [Bootstrap v5.3](https://getbootstrap.com/)
     - Used to ensure responsiveness and provide styling across the website.
-- Google Fonts
+- [Google Fonts](https://fonts.google.com/)
     - The 'Host Grotesk', 'Source Code Pro', and 'Inter' fonts were imported into the `style.css` file and used throughout the site.
-- Font Awesome
+- [Font Awesome](https://fontawesome.com/)
     - Included on all pages to provide icons that enhanced aesthetics and improve user experience.
-- jQuery
+- [jQuery](https://getbootstrap.com/docs/5.3/getting-started/download/)
     - Bundled with Bootstrap to make the navbar, carousel, and buttons responsive and enable smooth scroll functionality. 
-- Balsamiq
+- [Balsamiq Wireframes](https://balsamiq.com/?gad_source=1&gad_campaignid=203404003&gbraid=0AAAAAD3BuzO1_MfAH220pB2sjY8-SH4XY&gclid=Cj0KCQjwvajDBhCNARIsAEE29WqRr6MNJNBlZ2P9yCYgdpEVjwPQac8uQL0IlC2WZUqABjTq6pGe_eQaAismEALw_wcB)
     - Used to create wireframes during the design phase.
-- Git
+- [Git](https://git-scm.com/)
     - Used for version control, with commits made via Gitpod terminal. 
-- GitHub
+- [GitHub](https://github.com/)
     - Hosted the projects code after being pushed from Git.
-- Adobe Stock
+- [Adobe Stock](https://stock.adobe.com/uk/)
     - Provided high-quality visuals and images used across the site. 
-- Canva
+- [Canva](https://www.canva.com/)
     - Used to design the company logo. 
-- Coolors
+- [Coolors](https://coolors.co/)
     - Used for generating the colour palette and initally review colour contrast for accessibility. 
-- Google Developer Tools
+- [Google Developer Tools](https://developer.chrome.com/docs/devtools)
     - Used to test and debug the site across different screen sizes, devices, and browsers to ensure responsiveness and performance.
 
 ---
