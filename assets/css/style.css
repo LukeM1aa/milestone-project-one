@@ -130,12 +130,20 @@ nav {
     padding-top: 1.7rem;
 }
 
-.appliance-img {
+.appliance-img-grey {
     background-color: var(--content-background);
     height: 9em;
     width: auto;
     margin: 0.5em;
-    border-radius: 15%;
+    border-radius: 100em 40em 80em 90em;
+}
+
+.appliance-img-change {
+    background-color: var(--content-background);
+    height: 9em;
+    width: auto;
+    margin: 0.5em;
+    border-radius: 90em 80em 40em 100em;
 }
 
 /* Customer Review Section */
@@ -203,7 +211,7 @@ nav {
 form {
     max-width: 30em;
     margin: 0 auto;
-    padding: 2em;
+    padding: 1em;
 }
 
 label {
@@ -217,7 +225,7 @@ label {
 /* REMOVE ONCE IN README https://www.w3schools.com/css/css_form.asp */
 input[type=text],
 input[type=email],
-input[type=tel],
+input[type=number],
 input[type=date],
 select,
 textarea {
@@ -232,7 +240,7 @@ textarea {
 
 input[type=text]:focus,
 input[type=email]:focus,
-input[type=tel]:focus,
+input[type=number]:focus,
 input[type=date]:focus,
 select:focus,
 textarea:focus {
@@ -246,7 +254,8 @@ form div {
 }
 
 form .btn {
-    width: 100%;
+    display: block;
+    margin: 0 auto;
 }
 
 /* Action-page.html */

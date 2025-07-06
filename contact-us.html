@@ -58,18 +58,17 @@
         </header>
         <main>
         </main>
-            <!-- Bootstrap v5.3 form -->
-            <form action="" method="POST">
+            <form action="action-page.html" method="GET" id="action-form">
                 <h1>Request a Repair or Ask a Question</h1>
                 <label for="name">Full Name</label>
-                <input type="text" id="name" name="name" placeholder="Your full name" required>
+                <input type="text" id="name" name="name" required>
                 <label for="email">Email Address</label>
-                <input type="email" id="email" name="email" placeholder="you@example.co.uk" required>
+                <input type="email" id="email" name="email" required>
                 <label for="phone">Phone Number</label>
-                <input type="tel" id="phone" name="phone" placeholder="Your phone number">
+                <input type="number" id="phone" name="phone" required>
                 <label for="appliance">Appliance Type</label>
                 <select id="appliance" name="appliance" required>
-                    <option value="">-- Select an appliance --</option>
+                    <option value="">Select an appliance</option>
                     <option value="Washing Machine">Washing Machine</option>
                     <option value="Fridge / Freezer">Fridge / Freezer</option>
                     <option value="Oven / Cooker">Oven / Cooker</option>
@@ -80,10 +79,8 @@
                 <textarea id="message" name="message" rows="5" required></textarea>
                 <label for="preferred-date">Preferred Appointment Date</label>
                 <input type="date" id="preferred-date" name="preferred-date">
-                <div>
-                    <!-- Bootstap v5.3 button -->
-                    <a class="btn btn-primary btn-lg rounded-pill" href="action-page.html" role="button">Send Request</a>
-                </div>
+                 <!-- Bootstap v5.3 button -->
+                <input type="submit" form="action-form" class="btn btn-primary btn-lg rounded-pill form-btn" value="Send Request">
             </form>
         </main>
         <!-- Footer Section -->
@@ -118,13 +115,13 @@
                             <tbody>
                                 <tr>
                                     <th scope="row">Mon-Fri</th>
-                                    <td>0900</td>
-                                    <td>1700</td>
+                                    <td>09:00</td>
+                                    <td>17:00</td>
                                 </tr>
                                 <tr>
                                     <th scope="row">Sat</th>
-                                    <td>0900</td>
-                                    <td>1400</td>
+                                    <td>09:00</td>
+                                    <td>14:00</td>
                                 </tr>
                                 <tr>
                                     <th scope="row">Sun</th>
