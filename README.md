@@ -627,6 +627,10 @@ The website was deployed using **GitHub Pages**.
 2. Click the green **Code** button - near the top right.
 3. Under **Clone**, choose **HTTPS**.
 4. Click the copy icon to copy the URL.
+### Open your terminal
+5. Open **Command Prompt**, **GIT Bash**, or **Terminal**.
+6. Run the clone command, type **$GIT Clone + Copied URL**.
+7. Navigate into your project folder.
 
 ---
 
