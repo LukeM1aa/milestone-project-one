@@ -627,14 +627,31 @@ The website was deployed using **GitHub Pages**.
 - Adobe Stock - Credit to [Matcha-09](https://stock.adobe.com/uk/contributor/211891082/matcha-09?load_type=author&prev_url=detail) - Appliances - Fridge [Image](assets/images/fridge.png)
 - Adobe Stock - Credit to [Alloca Design Studio](https://stock.adobe.com/uk/contributor/212020487/alloca-design-studio?load_type=author&prev_url=detail) - Appliances - Dishwasher [Image](assets/images/dish.png)
 - Adobe Stock - Credit to [Jayk](https://stock.adobe.com/uk/contributor/211938241/jayk?load_type=author&prev_url=detail) - Appliances - Washing Machine [Image](assets/images/washing.png)
-- 
-
-
+- Adobe Stock - Credit to [Asier](https://stock.adobe.com/uk/contributor/208410632/asier?load_type=author&prev_url=detail) - Happy Customer "Sarah" [Image](assets/images/review1.png)
+- Adobe Stock - Credit to [Asier](https://stock.adobe.com/uk/contributor/208410632/asier?load_type=author&prev_url=detail) - Happy Customer "Amanda" [Image](assets/images/review2.png)
+- Adobe Stock - Credit to [Damir Khabirov](https://stock.adobe.com/uk/contributor/206682305/damir-khabirov?load_type=author&prev_url=detail) - Happy Customer "Tom" [Image](assets/images/review3.png)
+- Adobe Stock - Credit to [Krakenimages.com](https://stock.adobe.com/uk/contributor/200860971/krakenimages-com?load_type=author&prev_url=detail) - Happy Customer "Emma" [Image](assets/images/review4.png)
+- Adobe Stock - Credit to [Studio Romantic](https://stock.adobe.com/uk/contributor/206200351/studio-romantic?load_type=author&prev_url=detail) - Team [Image](assets/images/team-img2.jpeg)
+- Adobe Stock - Credit to [Pixel-Shot](https://stock.adobe.com/uk/contributor/207588960/pixel-shot?load_type=author&prev_url=detail) - Engineer Working [Image](assets/images/our-services-img.jpeg\)
 
 ## Code
-
 - [Google Fonts](https://fonts.google.com/) - Embedded CSS & JS code for typography
 - [Font Awesome](https://fontawesome.com/) - Embedded CSS for icons
+- CSS code credited to Greg Ord-Hume for article [CSS: Do not put height 100% on html, body in 2020](https://greggod.medium.com/css-do-not-put-height-100-on-the-body-html-e36bda3551b3)
+```
+html,
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+} 
+```
+- CSS code credited to Greg Ord-Hum for article [CSS: How to fix the footer to the bottom of the page in 2020](https://greggod.medium.com/keep-that-damn-footer-at-the-bottom-959796fe3d08)
+```
+body main {
+    flex: 1 auto; /* Flex: 1 auto; 
+}
+```
 
 ## Acknowledgement
 - [Code Institute](https://codeinstitute.net/global/) - Learning Platform

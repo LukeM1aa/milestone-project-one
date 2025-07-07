@@ -33,7 +33,6 @@ body {
     min-height: 100vh; /* Code by Greg Ord-Hume to remove white space under the footer */
     display: flex; /* Code by Greg Ord-Hume to remove white space under the footer */
     flex-direction: column; /* Code by Greg Ord-Hume to remove white space under the footer */
-    /* REMOVE ONCE IN README https://greggod.medium.com/css-do-not-put-height-100-on-the-body-html-e36bda3551b3 */
 } 
 
 body main {
