@@ -26,6 +26,8 @@ A clean, modern website for a local appliance repair company specialising in fri
 5. [Testing](#testing)
     - [HTML Validation](#html-validation)
     - [CSS Validation](#css-validation)
+    - [Performance](#performance)
+        - [Testing on Devices](#testing-on-devices)
 6. [Deployement](#deployment)
 7. [Credits](#credits)
     - [Content](#content)
@@ -514,7 +516,7 @@ Responsiveness and layout consistency were a key focus during development. Navig
 - **iPad Mini 6 (Contact Form)**: The calendar inputs minimises when selected, reducing accessibility and ease of use.
 - **All Devices (Customer Reviews)** The review carousel slides overlap slighly during slide transitions. 
 
-Future updates will address these issues, with an ongoing focus on enhancing 
+Future updates will address these issues, with an ongoing focus on enhancing responsiveness and accessibility across all devices.
 
 ---
 
