@@ -41,7 +41,7 @@ A clean, modern website for a local appliance repair company specialising in fri
 
 
 ---
-# Project Overview
+## Project Overview
 
 This website provides users with an easy way to: 
 - Learn about appliance repair services
@@ -50,15 +50,15 @@ This website provides users with an easy way to:
 
 It's designed to be clear, responsive, and user-friendly for all vistors. 
 
-## Developer and Business Goals
+### Developer and Business Goals
 - Increase visitor-to-customer conversion by reducing friction in booking and contact
 - Build trust through social proof (reviews, photos, videos)
 - Encourage quick action with easy contact options
 - Strengthen local precesence via targeted, helpful contact
 
-# User Experience (UX)
+## User Experience (UX)
 
-## User Stories
+### User Stories
 As a **potential customer**, I want to:
 
 1. Quickly see what types of appliances you repair so that I can feel confident your services meets my needs
@@ -111,9 +111,9 @@ As a **busy homeowner** I want to:
 1. See your opening hours, service area, and services at a glance, so I know you cover my location and needs
     * ✅ Website list opening hours, main appliance types, and service area *(e.g. **Serving Herts & North London**)*
 
-## Design Choices
+### Design Choices
 
-### Colour Palette
+#### Colour Palette
 
 The following [colour palette](assets/colour-palette/colour-palette.png) is generated via [Coolors.co](https://coolors.co):
 
@@ -128,7 +128,7 @@ The following [colour palette](assets/colour-palette/colour-palette.png) is gene
 
 These colours have been chosen to convey trust, clarity, and a clean modern look suitable for an appliance repair business.
 
-#### Accessibility Contrast
+##### Accessibility Contrast
 
 The colour palette has been chosen with the aim to meet [WCAG 2.1](https://www.w3.org/TR/WCAG21) AA contrast requirements for readability and accessibility:
 
@@ -141,13 +141,13 @@ The colour palette has been chosen with the aim to meet [WCAG 2.1](https://www.w
 
 ⚠️ If you customise this palette, please check that new combinations maintain sufficient colour contrast for users with visual impairments. 
 
-### Typograhpy
+#### Typograhpy
 The following typography is imported from [Google Fonts](https://fonts.google.com/):
 - **Primary font:** [Host Grotesk (Medium 500)](https://fonts.google.com/specimen/Host+Grotesk) - used for headings and key UI text
 - **Secondary font:** [Source Code Pro](https://fonts.google.com/specimen/Source+Code+Pro) - used for snippets and technical elements
 - **Body:** [Inter](https://fonts.google.com/specimen/Inter?query=inter) - used for paragraphs and general content
 
-#### Google Fonts Link
+##### Google Fonts Link
 CSS
 
 ```<style>
@@ -155,7 +155,7 @@ CSS
     </style>
 ```
 
-#### Accessibility Typography
+##### Accessibility Typography
 
 The fonts have been chosen with readability and accessibility in mind:
 
@@ -170,15 +170,15 @@ Where possible:
 
 *Further accessibility best practises are considered in styling and layout to ensure inclusive design.*
 
-### Imagery
+#### Imagery
 
-#### Favicon
+##### Favicon
 
 Favicon chosen to match elements of the colour palette and give a clean modern look suitable for an appliance repair business - favicon imported via [Fontawesome.com.](fontawesome.com)
 
 ![Washing Machine](assets/favicon/washing-machine.png) - 20x20 PNG file
 
-#### Logo
+##### Logo
 
 The business logo was used in the navigation bar and across key pages - designed and generated via [Canva.com.](canva.com)
 
@@ -193,7 +193,7 @@ CSS
 
 ```.logo {height: 4.4em; width: auto;}```
 
-## Website Structure & Accessibility
+### Website Structure & Accessibility
 The **Service & Sales Appliance Repair** website is built with semantic HTML for clear structure and accessibility. 
 
 The website consists of 4 main pages and a section link:
@@ -216,7 +216,7 @@ Key features include:
 
 Accessibility is part of the design, not an add-on.
 
-## Wireframes
+### Wireframes
 The wireframes represent the core pages of the appliance repair website, designed to work across larger devices **>769px**, tablet **<768px**, and mobile **<478px** devices. They ensure quick access to booking, contact, and service information. 
 
 <details>
@@ -249,9 +249,9 @@ Acknowledges the submission of the form, plus a clear "Return Home" button.
 
 ---
 
-# Features
+## Features
 
-## Existing Features
+### Existing Features
 
 <details>
 <summary>Logo & Navigation</summary>
@@ -327,7 +327,7 @@ Acknowledges the submission of the form, plus a clear "Return Home" button.
 ![Screenshot](assets/readme-references/screenshots/footer-feature.png)
 </details>
 
-## Future Enhancements
+### Future Enhancements
 
 Planned improvements have been tracked and prioritised using **GitHub Projects**, helping to manage progress and link user stories to development work.
 
@@ -337,9 +337,9 @@ Planned improvements have been tracked and prioritised using **GitHub Projects**
 ![GitHub Projects](assets/readme-references/screenshots/git-projects.png)
 </details>
 
-### Integrate External Customer Review Link
+#### Integrate External Customer Review Link
 
-#### User Story:
+##### User Story:
 As a customer, I want to leave a review easily via a trusted platform (e.g. Trustpilot), so I can share my experience and help others decide.
 <details>
 <summary>Screenshot from GitHub Projects</summary>
@@ -347,42 +347,42 @@ As a customer, I want to leave a review easily via a trusted platform (e.g. Trus
 ![Screenshot](assets/readme-references/screenshots/review-task.png)
 </details>
 
-#### Enhancement:
+##### Enhancement:
 Add a visible, accessible button or link on the home page and contact page that directs customers to a trusted external review site (such as Trustpilot or Google Reviews).
 
-### Show Pricing / Quote Process
+#### Show Pricing / Quote Process
 
-#### User Story:
+##### User Story:
 As a customer, I want to see clear pricing or understand how to request a quote, so I know what to expect before booking.
 
-#### Enhancement:
+##### Enhancement:
 Include a dedicated section or page explaining how quotes are provided, or list example pricing for common repairs.
 
-### Add Online Booking
+#### Add Online Booking
 
-#### User Story:
+##### User Story:
 As a customer, I want to book a repair appointment online, so I can confirm a date and time without having to call.
 
-#### Enhancement:
+##### Enhancement:
 Build a basic booking form or integrate a simple calendar tool to accept appointments.
 
-### Educational Content Page
+#### Educational Content Page
 
-#### User Story:
+##### User Story:
 As a customer, I want tips and advice about appliance care, so I can maintain my appliances and prevent breakdowns.
 
-#### Enhancement:
+##### Enhancement:
 Add a page with articles or FAQs about appliance care, common faults, and prevention tips.
 
 ---
 
-# Technologies Used
+## Technologies Used
 
-## Languages
+### Languages
 - HTML5
 - CSS3
 
-## Frameworks, Libraries & Programs Used
+### Frameworks, Libraries & Programs Used
 - [Bootstrap v5.3](https://getbootstrap.com/)
     - Used to ensure responsiveness and provide styling across the website.
 - [Google Fonts](https://fonts.google.com/)
@@ -410,9 +410,9 @@ Add a page with articles or FAQs about appliance care, common faults, and preven
 
 ---
 
-# Testing
+## Testing
 
-## HTML Validation
+### HTML Validation
 
 [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input) was used to validate the HTML of the website. One page failed with an error and another has one warning. All others passed with no errors no warning to show.
 
@@ -450,7 +450,7 @@ One error no warnings - Stray end tag, caused due to a typo. Removed duplicated 
 ![Screenshot](assets/readme-references/testing/action-html-val.png)
 </details>
 
-## CSS Validation
+### CSS Validation
 
 [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used to validate the CSS of the website. No errors found, 4 warnings caused by Google Fonts import CSS and CSS variables pointing to Google Fonts import CSS.
 
@@ -474,14 +474,14 @@ Line 58: `font-family: var(--primary-font);`
 ![Screenshot](assets/readme-references/testing/css-warnings.png)
 </details>
 
-## Performance
+### Performance
 
 [Google Lighthouse](https://developer.chrome.com/docs/lighthouse/overview) in Chrome DevTools was used as an automated tool to audit the web pages for performance, accessibility, SEO, and best practices. A tool to help improve web page quality overall. 
 
 <details>
 <summary>Home</summary>
 
-#### Future Enhancements & Noted Bugs
+##### Future Enhancements & Noted Bugs
 - **Improve Image Delivery** - Optimise large images to reduce page load time.
 - **Network Dependency Tree** - Minimise deep dependency on large third-party libraries
 
@@ -493,7 +493,7 @@ Line 58: `font-family: var(--primary-font);`
 <details>
 <summary>Our Services</summary>
 
-#### Future Enhancements & Noted Bugs
+##### Future Enhancements & Noted Bugs
 - **Improve Image Delivery** - Optimise large images to reduce page load time.
 
 *Future updates will address these issues, with an ongoing focus on enhancing responsiveness and accessibility across all devices.*
@@ -513,7 +513,7 @@ Line 58: `font-family: var(--primary-font);`
 ![Screenshot](assets/readme-references/testing/lighthouse-action.png)
 </details>
 
-### Testing on Devices
+#### Testing on Devices
 
 The website was tested across multiple devices and tools to ensure responsiveness and usability:
 
@@ -525,7 +525,7 @@ The website was tested across multiple devices and tools to ensure responsivenes
 
 Responsiveness and layout consistency were a key focus during development. Navigation, form elements, and interactive components were reviewed across these devices. 
 
-#### Future Enhancements & Noted Bugs
+##### Future Enhancements & Noted Bugs
 
 - **iPhone 15 Pro & Samsung Galaxy A52 (Landscape)**: When tilted to landscape mode, the hero image appears cut in half, and the hero text overlaps the appliance feature section.
 - **iPad Mini 6 (Contact Form)**: The calendar inputs minimises when selected, reducing accessibility and ease of use.
@@ -533,9 +533,9 @@ Responsiveness and layout consistency were a key focus during development. Navig
 
 Future updates will address these issues, with an ongoing focus on enhancing responsiveness and accessibility across all devices.
 
-### User Story Testing
+#### User Story Testing
 
-#### Acceptance Criteria & User Story Testing
+##### Acceptance Criteria & User Story Testing
 
 | **User Story** | **Action** | **Expectation** | **Outcome** |
 |----------------|------------|----------------|-------------|
@@ -547,23 +547,23 @@ Future updates will address these issues, with an ongoing focus on enhancing res
 | As a mobile user, I want site to work well on phone. | Open site on phone. | Site loads quickly; buttons are finger-friendly. | Content readable, no zooming needed; buttons easy to tap. |
 | As a busy homeowner, I want to see opening hours, service area, services at a glance. | Open site footer and navigate to homepage. | Hours, service area, appliance types listed. | Info is clearly visible on homepage without extra clicks. |
 
-#### Example Testing Summary
+##### Example Testing Summary
 
 - All actions were tested on: **iPhone 15 Pro**, **Samsung Galaxy A52**, **iPad Mini 6**, **MacBook Pro M3 14"**, and **Chrome DevTools (responsive toggler)**.
 - Most acceptance criterias met **except** noted bugs and *could-have* user stories in GitHub Projects:
 
-#### Noted Bugs
+##### Noted Bugs
   - Hero image/text overlap on iPhone 15 Pro / Samsung Galaxy A52 in landscape.
   - Contact form calendar issue on iPad Mini 6.
   - Customer reviews overlapping during slide transitions on all devices.
 
-#### *could-have* User Stories
+##### *could-have* User Stories
 
   - As a potential customer, I want to see clear pricing or how to get a quote.
   - As a potential customer, I want to book a repair visit online.
   - As a local resident, I want to see comments/reviews about faults and fixes.
 
-## Bugs & Fixes
+#### Bugs & Fixes
 
 | **Bugs** | **Fix** |
 | --- | --- |
@@ -575,16 +575,16 @@ Future updates will address these issues, with an ongoing focus on enhancing res
 | Unresponsive layout on larger devices (designed for mobile first) | Use CSS media queries to adjust styles at different breakpoints - avoiding fixed units |
 | Text too small or too large on different devices | Used relative units (em, rem) where possible, instead of fixed px sizes |
 
-### Example Fix Code Snippets
+##### Example Fix Code Snippets
 
-#### Hero font size & responsiveness text
+##### Hero font size & responsiveness text
 
 ```
 .hero-content {
     font-size: clamp(2rem, 8.2vw, 9rem);
 }
 ```
-#### Example media query for larger devices
+##### Example media query for larger devices
 
 ```
 @media screen and (min-width: 1024px) {
@@ -593,7 +593,7 @@ Future updates will address these issues, with an ongoing focus on enhancing res
 }
 ```
 
-#### Align elements with flex
+##### Align elements with flex
 
 ```
 #appliance-grid {
@@ -607,11 +607,11 @@ Future updates will address these issues, with an ongoing focus on enhancing res
 
 ---
 
-# Deployment 
+## Deployment 
 
 The website was deployed using **GitHub Pages**.
 
-## Steps to deploy:
+### Steps to deploy:
 
 1. Go to your repository on **GitHub**.
 2. Click the **Settings** tab.
@@ -622,35 +622,35 @@ The website was deployed using **GitHub Pages**.
     - Select the folder `/root`
 5. Click **Save**.
 
-### View Your Live Site:
+##### View Your Live Site:
 
 1. GitHub will generate a URL for your site (e.g. `https://lukem1aa.github.io/milestone-project-one/index.html`).
 2. You'll see it displayed in the **Pages** section after a few moments.
 3. Visit the link to view your deployed site!
 
-## Fork the Repository
+### Fork the Repository
 
 1. Go to the original GitHub repository page in your browser.
 2. In the top-right corner, click the **Fork** buttton.
 3. Choose your GitHub account to fork it into your own repository list.
 
-## Clone the Repository
+### Clone the Repository
 
 1. Go to the original GitHub repository page in your browser.
 2. Click the green **Code** button - near the top right.
 3. Under **Clone**, choose **HTTPS**.
 4. Click the copy icon to copy the URL.
 
-### Open your terminal
+##### Open your terminal
 5. Open **Command Prompt**, **GIT Bash**, or **Terminal**.
 6. Run the clone command, type **$GIT Clone + Copied URL**.
 7. Navigate into your project folder.
 
 ---
 
-# Credits
+## Credits
 
-## Content
+### Content
 - All content was written by the developer with contribution from Lucy Elliott - my partner who works in the industry. 
 
 ### Media
@@ -718,6 +718,6 @@ body main {
 - [Kevin Powell](https://www.youtube.com/kevinpowell) Youtube channel for CSS best practise
 - [W3Schools](https://www.w3schools.com/css/css_form.asp) with support targeting input fields with CSS
 
-#### I would also like to acknowledge and thank
+##### I would also like to acknowledge and thank
 - To my Partner Lucy Elliott for her continued support, industry advice, help with testing on devices, and the days and nights working on the project while she entertained the children
 - Services and Sales Appliance Repairs for giving me the opportunity to rebrand and design a new [website](https://www.serviceandsalesbedford.co.uk/)
