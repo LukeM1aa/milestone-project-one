@@ -552,6 +552,7 @@ Future updates will address these issues, with an ongoing focus on enhancing res
 ## Bugs & Fixes ##
 
 | **Bugs** | **Fix** |
+| --- | --- |
 | Home page link stays highlighted when visiting another page | Change `active` attribute to the correct page dynamically |
 | The user can submit a contact form input without a message | Add `required` attribute to message input field |
 | When viewed on all devices, the contact page has whitespace after the footer | Set `min-height` for html, body `100vh` |
@@ -562,15 +563,34 @@ Future updates will address these issues, with an ongoing focus on enhancing res
 
 ### Example Fix Code Snippets
 
-```.hero-content {
-    position: absolute;
-    top: 0.5em;
-    left: 0.2em;
-    max-width: 100%;
-    color: white;
+#### Hero font size & responsiveness text
+
+```CSS
+.hero-content {
     font-size: clamp(2rem, 8.2vw, 9rem);
 }
 ```
+#### Example media query for larger devices
+
+```CSS
+@media screen and (min-width: 1024px) {
+.hero {
+    background-position: center 23%;
+}
+```
+
+#### Align elements with flex
+
+```CSS
+#appliance-grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    padding-top: 1.7rem;
+}
+```
+
 ---
 
 # Deployment 
