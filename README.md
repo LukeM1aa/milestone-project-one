@@ -408,7 +408,7 @@ Add a page with articles or FAQs about appliance care, common faults, and preven
 
 ## HTML Validation
 
-The [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input) was used to validate the HTML of the website. One page failed with an error and another has one warning. All others passed with no errors no warning to show.
+[W3C Markup Validation Service](https://validator.w3.org/#validate_by_input) was used to validate the HTML of the website. One page failed with an error and another has one warning. All others passed with no errors no warning to show.
 
 <details>
 <summary>Home</summary>
@@ -446,7 +446,7 @@ One error no warnings - Stray end tag, caused due to a typo. Removed duplicated 
 
 ## CSS Validation
 
-The [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used to validate the CSS of the website. No errors found, 4 warnings caused by Google Fonts import CSS and CSS variables pointing to Google Fonts import CSS.
+[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used to validate the CSS of the website. No errors found, 4 warnings caused by Google Fonts import CSS and CSS variables pointing to Google Fonts import CSS.
 
 <details>
 <summary>style.css</summary>
@@ -458,11 +458,42 @@ The [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used 
 <summary>CSS Warnings</summary>
 
 Line 2: `@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,500;1,500&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');`
+
 Line 28: `font-family: var(--body-font);`
+
 Line 50: `font-family: var(--primary-font);`
+
 Line 58: `font-family: var(--primary-font);`
 
 ![Screenshot](assets/readme-references/testing/css-warnings.png)
+</details>
+
+## Performance
+
+[Google Lighthouse](https://developer.chrome.com/docs/lighthouse/overview) in Chrome DevTools was used as an automated tool to audit the web pages for performance, accessibility, SEO, and best practices. A tool to help improve web page quality overall. 
+
+<details>
+<summary>Home</summary>
+
+![Screenshot](assets/readme-references/testing/lighthouse-home.png)
+</details>
+
+<details>
+<summary>Our Services</summary>
+
+![Screenshot](assets/readme-references/testing/lighthouse-services.png)
+</details>
+
+<details>
+<summary>Contact Us</summary>
+
+![Screenshot](assets/readme-references/testing/lighthouse-contact.png)
+</details>
+
+<details>
+<summary>Action Page</summary>
+
+![Screenshot](assets/readme-references/testing/lighthouse-action.png)
 </details>
 
 ---
