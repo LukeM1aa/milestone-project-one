@@ -92,38 +92,24 @@ nav {
 /* Index.html */
 
 /* Hero Section */
-/* .hero {
+.hero {
     position: relative;
-    background: url("../images/hero-image.jpeg") center/cover no-repeat; Adobe Stock Images JPEG File
-    height: 30vh;
+    background: url("../images/hero-image.jpeg") center/cover no-repeat; /* Adobe Stock Images JPEG File */
+    height: 50vh;
     width: auto;
     margin: 0;
     background-position: 70%;
     color: var(--hero-accent);
-} */
-
-.hero {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    min-height: 60vh;
-    padding: 2rem 1rem;
-    position: relative;
-    background: url("../images/hero-image.jpeg") center/cover no-repeat; /* Adobe Stock Images JPEG File */
 }
-
 
 .hero-content {
     position: absolute;
     top: 0.5em;
-    left: 0.2em;
+    left: 0.1em;
     max-width: 100%;
     color: white;
     font-size: clamp(2rem, 8.2vw, 9rem);
 }
-
 
 .hero .btn {
     position: absolute;
@@ -425,5 +411,15 @@ form .btn {
 /* Our-services.html */
 .services p {
     margin: 0 23em;
+}
+}
+
+/* XL devices (XL devices, 1920px and up) */
+@media screen and (min-width: 1920px) {
+
+/* Index.html */
+/* Customer reviews section */
+.carousel-item img {
+    right: -85em;
 }
 }
