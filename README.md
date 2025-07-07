@@ -549,6 +549,28 @@ Future updates will address these issues, with an ongoing focus on enhancing res
   - As a potential customer, I want to book a repair visit online.
   - As a local resident, I want to see comments/reviews about faults and fixes.
 
+## Bugs & Fixes ##
+
+| **Bugs** | **Fix** |
+| Home page link stays highlighted when visiting another page | Change `active` attribute to the correct page dynamically |
+| The user can submit a contact form input without a message | Add `required` attribute to message input field |
+| When viewed on all devices, the contact page has whitespace after the footer | Set `min-height` for html, body `100vh` |
+| Hero font size not responsive on different devices | Used `clamp()` to set scable font-size for hero text |
+| Elements not aligned as excepted | Check for missing or incorrect `display (e.g. flex, block)`, or add `margin/ padding` |
+| Unresponsive layout on larger devices (designed for mobile first) | Use CSS media queries to adjust styles at different breakpoints - avoiding fixed units |
+| Text too small or too large on different devices | Used relative units (em, rem) where possible, instead of fixed px sizes |
+
+### Example Fix Code Snippets
+
+```.hero-content {
+    position: absolute;
+    top: 0.5em;
+    left: 0.2em;
+    max-width: 100%;
+    color: white;
+    font-size: clamp(2rem, 8.2vw, 9rem);
+}
+```
 ---
 
 # Deployment 
