@@ -518,6 +518,36 @@ Responsiveness and layout consistency were a key focus during development. Navig
 
 Future updates will address these issues, with an ongoing focus on enhancing responsiveness and accessibility across all devices.
 
+## User Stories Testing
+
+### Acceptance Criteria & User Story Testing
+
+| **User Story** | **Action** | **Expectation** | **Outcome** |
+|----------------|------------|----------------|-------------|
+| As a customer, I want to quickly see what types of appliances you repair. | Open homepage or Our Services page. | Appliance types visible within first screen on desktop and mobile, no scrolling required. | Appliance types display correctly on tested devices, easily identifiable at a glance. |
+| As a customer, I want to see positive reviews. | View reviews on homepage. | At least 3 reviews visible; reviews appear genuine. | Reviews visible |
+| As a customer, I want to see photos of your work or team. | Open homepage or navigate via main menu | Professional image of team shown. | Image is visible, looks professional and friendly. |
+| As a customer with urgent repair, I want to see contact details fast. | Open site footer and homepage. | Phone number and contact options visible without scrolling. | Contact details accessible, clickable on all devices. |
+| As a returning customer, I want easy access to contact or booking. | Navigate via main menu. | Booking/contact links visible; access within 3 clicks/taps. | Booking/contact form reached within 3 clicks/taps. |
+| As a mobile user, I want site to work well on phone. | Open site on phone. | Site loads quickly; buttons are finger-friendly. | Content readable, no zooming needed; buttons easy to tap. |
+| As a busy homeowner, I want to see opening hours, service area, services at a glance. | Open site footer and navigate to homepage. | Hours, service area, appliance types listed. | Info is clearly visible on homepage without extra clicks. |
+
+### Example Testing Summary
+
+- All actions were tested on: **iPhone 15 Pro**, **Samsung Galaxy A52**, **iPad Mini 6**, **MacBook Pro M3 14"**, and **Chrome DevTools (responsive toggler)**.
+- Most acceptance criterias met **except** noted bugs and *could-have* user stories in GitHub Projects:
+
+#### Noted Bugs
+  - Hero image/text overlap on iPhone 15 Pro / Samsung Galaxy A52 in landscape.
+  - Contact form calendar issue on iPad Mini 6.
+  - Customer reviews overlapping during slide transitions on all devices.
+
+#### User Stories
+
+  - As a customer, I want to see clear pricing or how to get a quote.
+  - As a customer, I want to book a repair visit online.
+  - As a local resident, I want to see comments/reviews about faults and fixes.
+
 ---
 
 # Deployment 
