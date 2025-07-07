@@ -678,5 +678,5 @@ body main {
 
 ### I would also like to acknowledge and thank
 - To my Partner Lucy Elliott for her continued support, industry advice, help with testing on devices, and the days and nights working on the project while she entertained the childrem
-- Services and Sales Appliance Repairs for giving me the opportunity to rebrand and design a new website [website](https://www.serviceandsalesbedford.co.uk/)
+- Services and Sales Appliance Repairs for giving me the opportunity to rebrand and design a new [website](https://www.serviceandsalesbedford.co.uk/)
 
