@@ -438,9 +438,6 @@ One error no warnings - Stray end tag, caused due to a typo. Removed duplicated 
 ![Screenshot](assets/readme-references/testing/contact-html-val.png)
 </details>
 
-![Screenshot](assets/readme-references/testing/services-html-val.png)
-</details>
-
 <details>
 <summary>Action Page</summary>
 
@@ -452,13 +449,18 @@ One error no warnings - Stray end tag, caused due to a typo. Removed duplicated 
 The [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used to validate the CSS of the website. No errors found, 4 warnings caused by Google Fonts import CSS and CSS variables pointing to Google Fonts import CSS.
 
 <details>
-<summary>CSS Passed</summary>
+<summary>style.css</summary>
 
 ![Screenshot](assets/readme-references/testing/css-val.png)
 </details>
 
 <details>
 <summary>CSS Warnings</summary>
+
+Line 2: `@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,500;1,500&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');`
+Line 28: `font-family: var(--body-font);`
+Line 50: `font-family: var(--primary-font);`
+Line 58: `font-family: var(--primary-font);`
 
 ![Screenshot](assets/readme-references/testing/css-warnings.png)
 </details>
