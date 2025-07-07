@@ -29,6 +29,7 @@ A clean, modern website for a local appliance repair company specialising in fri
     - [Performance](#performance)
         - [Testing on Devices](#testing-on-devices)
         - [User Story Testing](#user-story-testing)
+        - [Bugs & Fixes](#bugs--fixes)
 6. [Deployement](#deployment)
 7. [Credits](#credits)
     - [Content](#content)
@@ -499,7 +500,7 @@ Line 58: `font-family: var(--primary-font);`
 ![Screenshot](assets/readme-references/testing/lighthouse-action.png)
 </details>
 
-## Testing on Devices
+### Testing on Devices
 
 The website was tested across multiple devices and tools to ensure responsiveness and usability:
 
@@ -511,7 +512,7 @@ The website was tested across multiple devices and tools to ensure responsivenes
 
 Responsiveness and layout consistency were a key focus during development. Navigation, form elements, and interactive components were reviewed across these devices. 
 
-### Future Enhancements & Noted Bugs
+#### Future Enhancements & Noted Bugs
 
 - **iPhone 15 Pro & Samsung Galaxy A52 (Landscape)**: When tilted to landscape mode, the hero image appears cut in half, and the hero text overlaps the appliance feature section.
 - **iPad Mini 6 (Contact Form)**: The calendar inputs minimises when selected, reducing accessibility and ease of use.
@@ -519,9 +520,9 @@ Responsiveness and layout consistency were a key focus during development. Navig
 
 Future updates will address these issues, with an ongoing focus on enhancing responsiveness and accessibility across all devices.
 
-## User Story Testing
+### User Story Testing
 
-### Acceptance Criteria & User Story Testing
+#### Acceptance Criteria & User Story Testing
 
 | **User Story** | **Action** | **Expectation** | **Outcome** |
 |----------------|------------|----------------|-------------|
@@ -533,7 +534,7 @@ Future updates will address these issues, with an ongoing focus on enhancing res
 | As a mobile user, I want site to work well on phone. | Open site on phone. | Site loads quickly; buttons are finger-friendly. | Content readable, no zooming needed; buttons easy to tap. |
 | As a busy homeowner, I want to see opening hours, service area, services at a glance. | Open site footer and navigate to homepage. | Hours, service area, appliance types listed. | Info is clearly visible on homepage without extra clicks. |
 
-### Example Testing Summary
+#### Example Testing Summary
 
 - All actions were tested on: **iPhone 15 Pro**, **Samsung Galaxy A52**, **iPad Mini 6**, **MacBook Pro M3 14"**, and **Chrome DevTools (responsive toggler)**.
 - Most acceptance criterias met **except** noted bugs and *could-have* user stories in GitHub Projects:
@@ -549,7 +550,7 @@ Future updates will address these issues, with an ongoing focus on enhancing res
   - As a potential customer, I want to book a repair visit online.
   - As a local resident, I want to see comments/reviews about faults and fixes.
 
-## Bugs & Fixes ##
+## Bugs & Fixes
 
 | **Bugs** | **Fix** |
 | --- | --- |
@@ -565,14 +566,14 @@ Future updates will address these issues, with an ongoing focus on enhancing res
 
 #### Hero font size & responsiveness text
 
-```CSS
+```
 .hero-content {
     font-size: clamp(2rem, 8.2vw, 9rem);
 }
 ```
 #### Example media query for larger devices
 
-```CSS
+```
 @media screen and (min-width: 1024px) {
 .hero {
     background-position: center 23%;
@@ -581,7 +582,7 @@ Future updates will address these issues, with an ongoing focus on enhancing res
 
 #### Align elements with flex
 
-```CSS
+```
 #appliance-grid {
     display: flex;
     flex-flow: row wrap;
