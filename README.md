@@ -468,7 +468,15 @@ Line 58: `font-family: var(--primary-font);`
 ---
 
 # Deployment 
-Deployed via GitHub Pages: <!-- include deployed page -->
+
+The website was deployed using **GitHub Pages**.
+
+## Steps to deploy:
+
+1. In your GitHub repository, got to **Settings**.
+2. From the left-hand menu, select **Pages**.
+3. Under *Sources*, choose **Deploy from a branch** (or main, depending on your setup).
+4. After saving, a banner will appear at the top with your site link: `
 
 ---
 

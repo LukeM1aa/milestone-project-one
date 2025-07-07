@@ -66,7 +66,7 @@ h2 {
     padding: clamp(0.5em, 1vw, 0.75em) clamp(1em, 2vw, 1.5em);
     font-size: clamp(0.9em, 1vw + 0.8em, 1.2em);
     background-color: var(--accent-color);
-    color: var(--background-color);
+    color: white;
     text-decoration: none;
     border: none;
 }
@@ -101,7 +101,7 @@ nav {
     width: auto;
     margin: 0;
     background-position: 70%;
-    color: var(--background-color);
+    color: var(--hero-accent);
 }
 
 .hero-content {
