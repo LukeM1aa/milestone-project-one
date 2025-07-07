@@ -30,14 +30,13 @@ body {
     line-height: 1.5; /* Improves readability*/
     color: var(--body-color);
     background-color: var(--background-color);
-    min-height: 100vh; /* Code by Greg Ord-Hume to remove white space under the footer */
-    display: flex; /* Code by Greg Ord-Hume to remove white space under the footer */
-    flex-direction: column; /* Code by Greg Ord-Hume to remove white space under the footer */
+    min-height: 100vh; /* Credited Greg Ord-Hume to remove white space under the footer */
+    display: flex; /* Credited Greg Ord-Hume to remove white space under the footer */
+    flex-direction: column; /* Credited Greg Ord-Hume to remove white space under the footer */
 } 
 
 body main {
-    flex: 1 auto; /* Flex: 1 auto; Code by Greg Ord-Hume - Medium to remove white space under the footer */
-    /* REMOVE ONCE IN README https://greggod.medium.com/keep-that-damn-footer-at-the-bottom-959796fe3d08 */
+    flex: 1 auto; /* Flex: 1 auto; Credited to Greg Ord-Hume - Medium to remove white space under the footer */
     margin-top: 7em; /* Add margin at the top to prevent content from being covered by the header */
 }
 
@@ -145,14 +144,13 @@ nav {
 }
 
 /* Customer Review Section */
-.carousel .carousel-indicators button { /* Code by Bashid - Stack Overflow to change carousel indicators into dots */
+.carousel .carousel-indicators button { /* Credit to Bashid on Stack Overflow - how to change carousel indicators into dots */
     width: 1em;
     height: 1em;
     border-radius: 100%;
     margin: 0 0.5em;
     background-color: var(--accent-color);
 }
-/* REMOVE ONCE IN README https://stackoverflow.com/questions/70819649/how-can-i-change-bootstrap-5-carousel-indicators-into-dots/71997944 */
 
 .carousel-caption {
     text-align: left;
@@ -220,8 +218,7 @@ label {
     color: #555;
 }
 
-/* REMOVE ONCE IN README Support targeting input fields W3 Schools */
-/* REMOVE ONCE IN README https://www.w3schools.com/css/css_form.asp */
+/* W3Schools - material to target input fields in CSS */
 input[type=text],
 input[type=email],
 input[type=tel],

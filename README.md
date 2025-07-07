@@ -652,10 +652,31 @@ body main {
     flex: 1 auto; /* Flex: 1 auto; 
 }
 ```
+- CSS code credited to Bashid for contribution to question on [StackOverflow](https://stackoverflow.com/questions/70819649/how-can-i-change-bootstrap-5-carousel-indicators-into-dots/71997944) "How can I change Bootstrap 5 carousel indicators into dots"
+```
+.carousel .carousel-indicators button { 
+    width: 1em;
+    height: 1em;
+    border-radius: 100%;
+    margin: 0 0.5em;
+    background-color: var(--accent-color);
+}
+```
+- Navigation CSS style code taken from [Bootstrap v5.3](https://getbootstrap.com/docs/5.3/components/navbar/)
+- Carousel CSS style code used for customer review taken from [Bootstrap v5.3](https://getbootstrap.com/docs/5.3/components/carousel/)
+- Buttons CSS style code taken from [Bootstap v5.3](https://getbootstrap.com/docs/5.3/components/buttons/)
+- Tables CSS style code taken from [Bootstap v5.3](https://getbootstrap.com/docs/5.3/content/tables/)
+
 
 ## Acknowledgement
 - [Code Institute](https://codeinstitute.net/global/) - Learning Platform
 - [WCAG 2.1](https://www.w3.org/TR/WCAG21) and [Coolors Color Contrast Checker](https://coolors.co/contrast-checker) - Accessibility contrast checker to support and maintain readability
 - [WCAG 2..2 Techniques](https://www.w3.org/WAI/WCAG22/Techniques/css/C22) and [WebAim - Typefaces and Fonts](https://webaim.org/techniques/fonts/) - Accessibility typeface and fonts support and maintain readability
-<!-- include any CSS frameworks, resource for images, etc) -->
+- [Syntax](https://syntax.fm/) Podcast and Youtube channel for CSS and industry inspiration
+- [Kevin Powell](https://www.youtube.com/kevinpowell) Youtube channel for CSS best practise
+- [W3Schools](https://www.w3schools.com/css/css_form.asp) with support targeting input fields with CSS
+
+### I would also like to acknowledge and thank
+- To my Partner Lucy Elliott for her continued support, industry advice, help with testing on devices, and the days and nights working on the project while she entertained the childrem
+- Services and Sales Appliance Repairs for giving me the opportunity to rebrand and design a new website [website](https://www.serviceandsalesbedford.co.uk/)
 
