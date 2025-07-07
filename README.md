@@ -408,10 +408,12 @@ Add a page with articles or FAQs about appliance care, common faults, and preven
 
 ## HTML Validation
 
-The [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input) was used to validate the HTML of the website. One page failed with an error, all others passed with no errors no warning to show.
+The [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input) was used to validate the HTML of the website. One page failed with an error and another has one warning. All others passed with no errors no warning to show.
 
 <details>
 <summary>Home</summary>
+
+One warning due to a `<section>` lacking a heading. Although not a conventional approach, this section is being used as a secondary navigation mechanism to *Our Services*. 
 
 ![Screenshot](assets/readme-references/testing/home-html-val.png)
 </details>
@@ -423,11 +425,16 @@ The [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input)
 </details>
 
 <details>
-<summary>Contact Us</summary>
+<summary>Contact Us - Error</summary>
 
 One error no warnings - Stray end tag, caused due to a typo. Removed duplicated `</main>` end tag.
 
 ![Screenshot](assets/readme-references/testing/contact-html-stray.png)
+</details>
+
+<details>
+<summary>Contact Us - Pass</summary>
+
 ![Screenshot](assets/readme-references/testing/contact-html-val.png)
 </details>
 
