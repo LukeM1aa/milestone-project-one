@@ -91,46 +91,7 @@ nav {
 
 /* Index.html */
 
-/* Hero Section */
-/* .hero {
-    position: relative;
-    background: url("../images/hero-image.jpeg") center/cover no-repeat; Adobe Stock Images JPEG File
-    height: 30vh;
-    width: auto;
-    margin: 0;
-    background-position: 70%;
-    color: var(--hero-accent);
-} */
 
-.hero {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    min-height: 60vh;
-    padding: 2rem 1rem;
-    position: relative;
-    background: url("../images/hero-image.jpeg") center/cover no-repeat; /* Adobe Stock Images JPEG File */
-}
-
-
-.hero-content {
-    position: absolute;
-    top: 0.5em;
-    left: 0.2em;
-    max-width: 100%;
-    color: white;
-    font-size: clamp(2rem, 8.2vw, 9rem);
-}
-
-
-.hero .btn {
-    position: absolute;
-    bottom: 1em;
-    left: 50%;
-    transform: translateX(-50%);
-}
 
 /* Appliance Section */
 #appliance-grid {
@@ -426,4 +387,62 @@ form .btn {
 .services p {
     margin: 0 23em;
 }
+}
+
+/* 2XL devices (2XL devices, 1920px and up) */
+@media screen and (min-width: 1920px) {
+
+/* Customer reviews section */
+.carousel-item img {
+    right: -85em;
+}
+
+/* === UPDATED HERO SECTION === */
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 60vh;
+    padding: 2rem 1rem;
+    position: relative;
+    background: url("../images/hero-image.jpeg") center/cover no-repeat;
+}
+
+.hero h1 {
+    font-size: clamp(2rem, 5vw, 4rem);
+    margin-bottom: 1rem;
+    z-index: 2;
+}
+
+.hero .btn {
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    z-index: 2;
+}
+
+/* === RESPONSIVE APPLIANCE IMAGES === */
+.appliance-image {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* === MEDIA QUERY FOR SMALL SCREENS === */
+@media (max-width: 768px) {
+    .appliance-image {
+        max-width: 100px;
+    }
+
+    .hero {
+        padding: 3rem 1rem;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
 }
