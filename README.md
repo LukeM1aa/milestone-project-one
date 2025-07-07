@@ -611,7 +611,7 @@ The website was deployed using **GitHub Pages**.
 
 ## Content
 
-## Media
+### Media
 - [Coolors](https://coolors.co) - Color scheme generator for styling
 - [Google Fonts](https://fonts.google.com/) - For typography imports
 - [Font Awesome](https://fontawesome.com/) - Unicode F005 `<i class="fa-solid fa-star fa-xl"></i>`
@@ -634,7 +634,7 @@ The website was deployed using **GitHub Pages**.
 - Adobe Stock - Credit to [Studio Romantic](https://stock.adobe.com/uk/contributor/206200351/studio-romantic?load_type=author&prev_url=detail) - Team [Image](assets/images/team-img2.jpeg)
 - Adobe Stock - Credit to [Pixel-Shot](https://stock.adobe.com/uk/contributor/207588960/pixel-shot?load_type=author&prev_url=detail) - Engineer Working [Image](assets/images/our-services-img.jpeg\)
 
-## Code
+### Code
 - [Google Fonts](https://fonts.google.com/) - Embedded CSS & JS code for typography
 - [Font Awesome](https://fontawesome.com/) - Embedded CSS for icons
 - CSS code credited to Greg Ord-Hume for article [CSS: Do not put height 100% on html, body in 2020](https://greggod.medium.com/css-do-not-put-height-100-on-the-body-html-e36bda3551b3)
@@ -668,7 +668,7 @@ body main {
 - Tables CSS style code taken from [Bootstap v5.3](https://getbootstrap.com/docs/5.3/content/tables/)
 
 
-## Acknowledgement
+### Acknowledgement
 - [Code Institute](https://codeinstitute.net/global/) - Learning Platform
 - [WCAG 2.1](https://www.w3.org/TR/WCAG21) and [Coolors Color Contrast Checker](https://coolors.co/contrast-checker) - Accessibility contrast checker to support and maintain readability
 - [WCAG 2..2 Techniques](https://www.w3.org/WAI/WCAG22/Techniques/css/C22) and [WebAim - Typefaces and Fonts](https://webaim.org/techniques/fonts/) - Accessibility typeface and fonts support and maintain readability
@@ -676,7 +676,6 @@ body main {
 - [Kevin Powell](https://www.youtube.com/kevinpowell) Youtube channel for CSS best practise
 - [W3Schools](https://www.w3schools.com/css/css_form.asp) with support targeting input fields with CSS
 
-### I would also like to acknowledge and thank
-- To my Partner Lucy Elliott for her continued support, industry advice, help with testing on devices, and the days and nights working on the project while she entertained the childrem
+#### I would also like to acknowledge and thank
+- To my Partner Lucy Elliott for her continued support, industry advice, help with testing on devices, and the days and nights working on the project while she entertained the children
 - Services and Sales Appliance Repairs for giving me the opportunity to rebrand and design a new [website](https://www.serviceandsalesbedford.co.uk/)
-
