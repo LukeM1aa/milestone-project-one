@@ -15,7 +15,7 @@ A clean, modern website for a local appliance repair company specialising in fri
     - [User Stories](#user-stories)
     - [Design Choices](#design-choices)
         - [Colour Palette](#colour-palette)
-        - [Typograhpy](#typograhpy)
+        - [Typography](#typography)
         - [Imagery](#imagery)
     - [Website Structure & Accessibility](#website-structure--accessibility)
     - [Wireframes](#wireframes)
@@ -48,13 +48,13 @@ This website provides users with an easy way to:
 - Contact the business for quotes or bookings
 - Find information on common appliance issues
 
-It's designed to be clear, responsive, and user-friendly for all vistors. 
+The website is designed to be clear, responsive, and user-friendly for all visitors.
 
 ### Developer and Business Goals
 - Increase visitor-to-customer conversion by reducing friction in booking and contact
-- Build trust through social proof (reviews, photos, videos)
+- Build trust through social proof (reviews)
 - Encourage quick action with easy contact options
-- Strengthen local precesence via targeted, helpful contact
+- Strengthen local presence via targeted, helpful contact
 
 ## User Experience (UX)
 
@@ -62,22 +62,22 @@ It's designed to be clear, responsive, and user-friendly for all vistors.
 As a **potential customer**, I want to:
 
 1. Quickly see what types of appliances you repair so that I can feel confident your services meets my needs
-    * ✅ The home page clearly list major apliance types *(e.g. ovens, fridges, washing machines, dishwashers)*
+    * ✅ The home page clearly list major appliance types *(e.g. ovens, fridges, washing machines, dishwashers)*
     * ✅ There's a dedicated **Our Services** page with further detail
     * ✅ Appliance types appear within the first screen on desktop and mobile *(no scrolling required)*
 2. See clear pricing or how to get a quote, so that I can make a decision without needing to call first
-    * ✅ There is a **Pricing** or **Get a Quote** button visable on the home page
+    * ✅ There is a **Pricing** or **Get a Quote** button visible on the home page
     * ✅ Clicking this takes the user to a form or price guide with estimated costs or a simple quote request form
     * ✅ The form can be completed in under 2 minutes
-4. Be able to easily book a repair visit online, so that I don't have to wait to speak to someone
+3. Be able to easily book a repair visit online, so that I don't have to wait to speak to someone
     * ✅ The website has a **Book Now** button on all main pages
     * ✅ Booking form allows selection of appliance type, issue, date, and contact details
-    * ✅ Customer recieves an email or SMS confirmation after booking
-6. See positive reviews or testimonials from real customers, so I feel reassured about the quality of your serivce
-    * ✅ At least 3 customer reviews are visable on the home page
+    * ✅ Customer receives an email or SMS confirmation after booking
+4. See positive reviews or testimonials from real customers, so I feel reassured about the quality of your service
+    * ✅ At least 3 customer reviews are visible on the home page
     * ✅ Reviews are real *(from Google, Trustpilot or direct customers)*
     * ✅ There's a link to view more reviews
-8. See photos of your work or your team, so I can trust that you're professional and realiable
+5. See photos of your work or your team, so I can trust that you're professional and reliable
     * ✅ The home page features at least 1 image of the team or repair work
     * ✅ There is a gallery or **About Us** page with photos that look professional and friendly
 
@@ -85,12 +85,12 @@ As a **customer**, with an urgent repair:
 
 1. See contact details immediately so that I can reach you fast
     * ✅ A clickable phone number is in the site header and footer
-    * ✅ Contact options *(phone, WhatsApp, email)* are visable on the home page without scrolling
+    * ✅ Contact options *(phone, WhatsApp, email)* are visible on the home page without scrolling
 
 As a **returning customer** I want to:
 
 1. Quickly find your contact page or booking form, so I can request another repair without fuss
-    * ✅ Contact/ booking links are always visible in the main menu
+    * ✅ Contact/booking links are always visible in the main menu
     * ✅ Returning users can book or contact in under 3 clicks/ taps
 
 As a **mobile user** I want your: 
@@ -132,8 +132,8 @@ These colours have been chosen to convey trust, clarity, and a clean modern look
 
 The colour palette has been chosen with the aim to meet [WCAG 2.1](https://www.w3.org/TR/WCAG21) AA contrast requirements for readability and accessibility:
 
-- **Primary #1B2A41** on **backgrounds #F5F5F5** provides strong constrast for headings and key UI elements (12.2:1 contrast ratio / AAA WCAG)
-- **Body text #333333** on **backgrounds #F5F5F5** meets recommended contrast for standard text (15.2:1 contract ratio / AAA WCAG)
+- **Primary #1B2A41** on **backgrounds #F5F5F5** provides strong contrast for headings and key UI elements (12.2:1 contrast ratio / AAA WCAG)
+- **Body text #333333** on **backgrounds #F5F5F5** meets recommended contrast for standard text (15.2:1 contrast ratio / AAA WCAG)
 - **Accent #FF6B35** is used for buttons and calls to action, always paired with sufficient contrast (e.g. white on orange buttons)
 - Small orange text on light backgrounds will be avoided to maintain readability
 
@@ -141,7 +141,7 @@ The colour palette has been chosen with the aim to meet [WCAG 2.1](https://www.w
 
 ⚠️ If you customise this palette, please check that new combinations maintain sufficient colour contrast for users with visual impairments. 
 
-#### Typograhpy
+#### Typography
 The following typography is imported from [Google Fonts](https://fonts.google.com/):
 - **Primary font:** [Host Grotesk (Medium 500)](https://fonts.google.com/specimen/Host+Grotesk) - used for headings and key UI text
 - **Secondary font:** [Source Code Pro](https://fonts.google.com/specimen/Source+Code+Pro) - used for snippets and technical elements
@@ -150,7 +150,7 @@ The following typography is imported from [Google Fonts](https://fonts.google.co
 ##### Google Fonts Link
 
 ```<style>
-@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,500;1,500&family=Inter:ital,opsz,wght@0,14..32,100.900;1,14..32,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');```
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,500;1,500&family=Inter:ital,opsz,wght@0,14..32,100.900;1,14..32,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
     </style>
 ```
 
@@ -165,9 +165,9 @@ The fonts have been chosen with readability and accessibility in mind:
 Where possible:
 
 - **Responsive sizing** so text remains readable on all devices
-- **Scable units (e.g. rem/em)** so users can resize text in their browser without breaking layout
+- **Scalable units (e.g. rem/em)** so users can resize text in their browser without breaking layout
 
-*Further accessibility best practises are considered in styling and layout to ensure inclusive design.*
+*Further accessibility best practices are considered in styling and layout to ensure inclusive design.*
 
 #### Imagery
 
@@ -225,7 +225,7 @@ Features appliance categories, reviews, and contact info. Mobile devices are opt
 
 <details>
 <summary>Our Services Page</summary>
-Lists individual services (e.g. oven repairs) with descriptions and images, plus a "Contact Us" button. Mobile layout stacks sevice info for easy scrolling.
+Lists individual services (e.g. oven repairs) with descriptions and images, plus a "Contact Us" button. Mobile layout stacks service info for easy scrolling.
 
 ![Our Services Wireframes](assets/wireframes/our-services.png)
 </details>
@@ -264,7 +264,7 @@ Acknowledges the submission of the form, plus a clear "Return Home" button.
 <summary>Hero Image & Button</summary>
 
 - Large, engaging **hero image** on the home page.
-- Prominent **call now button** encourages quick contact.
+- Encourage quick action through prominent, accessible contact options.
 ![Screenshot](assets/readme-references/screenshots/hero-feature.png)
 </details>
 
@@ -401,7 +401,7 @@ Add a page with articles or FAQs about appliance care, common faults, and preven
 - [Canva](https://www.canva.com/)
     - Used to design the company logo.
 - [Coolors](https://coolors.co/)
-    - Used for generating the colour palette and initally review colour contrast for accessibility.
+    - Used for generating the colour palette and initially review colour contrast for accessibility.
 - [Google Developer Tools](https://developer.chrome.com/docs/devtools)
     - Used to test and debug the site across different screen sizes, devices, and browsers to ensure responsiveness and performance.
 
@@ -411,7 +411,7 @@ Add a page with articles or FAQs about appliance care, common faults, and preven
 
 ### HTML Validation
 
-[W3C Markup Validation Service](https://validator.w3.org/#validate_by_input) was used to validate the HTML of the website. One page failed with an error and another has one warning. All others passed with no errors no warning to show.
+[W3C Markup Validation Service](https://validator.w3.org/#validate_by_input) was used to validate the HTML of the website. One page failed with an error and another has one warning. All others passed with no errors, no warning to show.
 
 <details>
 <summary>Home</summary>
@@ -430,7 +430,7 @@ One warning due to a `<section>` lacking a heading. Although not a conventional 
 <details>
 <summary>Contact Us - Error</summary>
 
-One error no warnings - Stray end tag, caused due to a typo. Removed duplicated `</main>` end tag.
+One error, no warnings - Stray end tag, caused due to a typo. Removed duplicated `</main>` end tag.
 
 ![Screenshot](assets/readme-references/testing/contact-html-stray.png)
 </details>
@@ -526,7 +526,7 @@ Responsiveness and layout consistency were a key focus during development. Navig
 
 - **iPhone 15 Pro & Samsung Galaxy A52 (Landscape)**: When tilted to landscape mode, the hero image appears cut in half, and the hero text overlaps the appliance feature section.
 - **iPad Mini 6 (Contact Form)**: The calendar inputs minimises when selected, reducing accessibility and ease of use.
-- **All Devices (Customer Reviews)** The review carousel slides overlap slighly during slide transitions. 
+- **All Devices (Customer Reviews)** The review carousel slides overlap slightly during slide transitions. 
 
 Future updates will address these issues, with an ongoing focus on enhancing responsiveness and accessibility across all devices.
 
@@ -547,7 +547,7 @@ Future updates will address these issues, with an ongoing focus on enhancing res
 ##### Example Testing Summary
 
 - All actions were tested on: **iPhone 15 Pro**, **Samsung Galaxy A52**, **iPad Mini 6**, **MacBook Pro M3 14"**, and **Chrome DevTools (responsive toggler)**.
-- Most acceptance criterias met **except** noted bugs and *could-have* user stories in GitHub Projects:
+- Most acceptance criteria met **except** noted bugs and *could-have* user stories in GitHub Projects:
 
 ##### Noted Bugs
   - Hero image/text overlap on iPhone 15 Pro / Samsung Galaxy A52 in landscape.
@@ -567,8 +567,8 @@ Future updates will address these issues, with an ongoing focus on enhancing res
 | Home page link stays highlighted when visiting another page | Change `active` attribute to the correct page dynamically |
 | The user can submit a contact form input without a message | Add `required` attribute to message input field |
 | When viewed on all devices, the contact page has whitespace after the footer | Set `min-height` for html, body `100vh` |
-| Hero font size not responsive on different devices | Used `clamp()` to set scable font-size for hero text |
-| Elements not aligned as excepted | Check for missing or incorrect `display (e.g. flex, block)`, or add `margin/ padding` |
+| Hero font size not responsive on different devices | Used `clamp()` to set scalable font-size for hero text |
+| Elements not aligned as expected | Check for missing or incorrect `display (e.g. flex, block)`, or add `margin/ padding` |
 | Unresponsive layout on larger devices (designed for mobile first) | Use CSS media queries to adjust styles at different breakpoints - avoiding fixed units |
 | Text too small or too large on different devices | Used relative units (em, rem) where possible, instead of fixed px sizes |
 
@@ -615,7 +615,7 @@ The website was deployed using **GitHub Pages**.
 3. In the sidebar, select **Pages**.
 4. Under **Source**, choose:
     - `Deploy from a branch`
-    - Select the branch `Main`
+    - Select the branch `main`
     - Select the folder `/root`
 5. Click **Save**.
 
@@ -628,7 +628,7 @@ The website was deployed using **GitHub Pages**.
 ### Fork the Repository
 
 1. Go to the original GitHub repository page in your browser.
-2. In the top-right corner, click the **Fork** buttton.
+2. In the top-right corner, click the **Fork** button.
 3. Choose your GitHub account to fork it into your own repository list.
 
 ### Clone the Repository
@@ -640,7 +640,7 @@ The website was deployed using **GitHub Pages**.
 
 ##### Open your terminal
 5. Open **Command Prompt**, **GIT Bash**, or **Terminal**.
-6. Run the clone command, type **$GIT Clone + Copied URL**.
+6. Run the clone command, type `$git Clone + Copied URL`.
 7. Navigate into your project folder.
 
 ---
@@ -653,12 +653,7 @@ The website was deployed using **GitHub Pages**.
 ### Media
 - [Coolors](https://coolors.co) - Color scheme generator for styling
 - [Google Fonts](https://fonts.google.com/) - For typography imports
-- [Font Awesome](https://fontawesome.com/) - Unicode F005 `<i class="fa-solid fa-star fa-xl"></i>`
-- [Font Awesome](https://fontawesome.com/) - Unicode F095 `<i class="fa-solid fa-phone"></i>`
-- [Font Awesome](https://fontawesome.com/) - Unicode F0e0 `<i class="fa-solid fa-envelope"></i>`
-- [Font Awesome](https://fontawesome.com/) - Unicode F3c5 `<i class="fa-solid fa-location-dot"`
-- [Font Awesome](https://fontawesome.com/) - Unicode F058 `<i class="fa-solid fa-circle-check"></i>`
-- [Font Awesome](https://fontawesome.com/) - Unicode e1b0 `<i class="fa-solid fa-house-user"></i>`
+- [Font Awesome](https://fontawesome.com/) - Icons such as star, phone, envelope, and location are sourced via Font Awesome
 - [Canva](https://www.canva.com/) - Used to design [company logo](assets/images/logo.svg) and generate SVG file for navigation bar
 - Free Icons - Credit to [Hilmy Abiyyu Asad](https://freeicons.io/profile/75801) - Washing Machine [Favicon](assets/favicon/washing-machine.png)
 - Adobe Stock - Credit to [Weerapat](https://stock.adobe.com/uk/contributor/212123501/weerapat?load_type=author&prev_url=detail) - Home - Hero [Image](assets/images/hero-image.jpeg)
@@ -711,10 +706,10 @@ body main {
 - [Code Institute](https://codeinstitute.net/global/) - Learning Platform
 - [WCAG 2.1](https://www.w3.org/TR/WCAG21) and [Coolors Color Contrast Checker](https://coolors.co/contrast-checker) - Accessibility contrast checker to support and maintain readability
 - [WCAG 2..2 Techniques](https://www.w3.org/WAI/WCAG22/Techniques/css/C22) and [WebAim - Typefaces and Fonts](https://webaim.org/techniques/fonts/) - Accessibility typeface and fonts support and maintain readability
-- [Syntax](https://syntax.fm/) Podcast and Youtube channel for CSS and industry inspiration
-- [Kevin Powell](https://www.youtube.com/kevinpowell) Youtube channel for CSS best practise
+- [Syntax](https://syntax.fm/) Podcast and YouTube channel for CSS and industry inspiration
+- [Kevin Powell](https://www.youtube.com/kevinpowell) YouTube channel for CSS best practise
 - [W3Schools](https://www.w3schools.com/css/css_form.asp) with support targeting input fields with CSS
 
 ##### I would also like to acknowledge and thank
-- To my Partner Lucy Elliott for her continued support, industry advice, help with testing on devices, and the days and nights working on the project while she entertained the children
+- I would like to thank my partner Lucy Elliott for her continued support, industry advice, help with testing on devices, and the days and nights working on the project while she entertained the children
 - Services and Sales Appliance Repairs for giving me the opportunity to rebrand and design a new [website](https://www.serviceandsalesbedford.co.uk/)
