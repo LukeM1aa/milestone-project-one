@@ -2,7 +2,7 @@
 
 A clean, modern website for a local appliance repair company specialising in fridge, freezer, washing machine, and oven repairs. Built using **HTML5** and **CSS3**.
 
-![Website mock-up for responsive design](assets/readme-references/mock-up/sas-mock-up.png)
+![Website mock-up for responsive design](assets/readme-references/mock-up/mock-up.png)
 
 [View the live project here!](https://lukem1aa.github.io/milestone-project-one/)
 
