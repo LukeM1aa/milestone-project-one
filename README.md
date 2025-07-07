@@ -2,6 +2,8 @@
 
 A clean, modern website for a local appliance repair company specialising in fridge, freezer, washing machine, and oven repairs. Built using **HTML5** and **CSS3**.
 
+[View the live project here!](https://lukem1aa.github.io/milestone-project-one/)
+
 <!-- Replace with your screenshot image and path for resposive mock-up] -->
 
 ---
@@ -649,6 +651,7 @@ The website was deployed using **GitHub Pages**.
 # Credits
 
 ## Content
+- All content was written by the developer with contribution from Lucy Elliott - my partner who works in the industry. 
 
 ### Media
 - [Coolors](https://coolors.co) - Color scheme generator for styling
