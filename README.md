@@ -479,11 +479,22 @@ Line 58: `font-family: var(--primary-font);`
 <details>
 <summary>Home</summary>
 
+#### Future Enhancements & Noted Bugs
+- **Improve Image Delivery** - Optimise large images to reduce page load time.
+- **Network Dependency Tree** - Minimise deep dependency on large third-party libraries
+
+*Future updates will address these issues, with an ongoing focus on enhancing responsiveness and accessibility across all devices.*
+
 ![Screenshot](assets/readme-references/testing/lighthouse-home.png)
 </details>
 
 <details>
 <summary>Our Services</summary>
+
+#### Future Enhancements & Noted Bugs
+- **Improve Image Delivery** - Optimise large images to reduce page load time.
+
+*Future updates will address these issues, with an ongoing focus on enhancing responsiveness and accessibility across all devices.*
 
 ![Screenshot](assets/readme-references/testing/lighthouse-services.png)
 </details>
@@ -609,7 +620,7 @@ The website was deployed using **GitHub Pages**.
     - Select the folder `/root`
 5. Click **Save**.
 
-## View Your Live Site:
+### View Your Live Site:
 
 1. GitHub will generate a URL for your site (e.g. `https://lukem1aa.github.io/milestone-project-one/index.html`).
 2. You'll see it displayed in the **Pages** section after a few moments.
@@ -627,6 +638,7 @@ The website was deployed using **GitHub Pages**.
 2. Click the green **Code** button - near the top right.
 3. Under **Clone**, choose **HTTPS**.
 4. Click the copy icon to copy the URL.
+
 ### Open your terminal
 5. Open **Command Prompt**, **GIT Bash**, or **Terminal**.
 6. Run the clone command, type **$GIT Clone + Copied URL**.
