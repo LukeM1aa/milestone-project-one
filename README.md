@@ -24,6 +24,8 @@ A clean, modern website for a local appliance repair company specialising in fri
     - [Languages](#languages)
     - [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
 5. [Testing](#testing)
+    - [HTML Validation](#html-validation)
+    - [CSS Validation](#css-validation)
 6. [Deployement](#deployment)
 7. [Credits](#credits)
     - [Content](#content)
@@ -334,7 +336,7 @@ Planned improvements have been tracked and prioritised using **GitHub Projects**
 #### User Story:
 As a customer, I want to leave a review easily via a trusted platform (e.g. Trustpilot), so I can share my experience and help others decide.
 <details>
-<summary>Screenshot from *GitHub Projects</summary>
+<summary>Screenshot from GitHub Projects</summary>
 
 ![Screenshot](assets/readme-references/screenshots/review-task.png)
 </details>
@@ -403,6 +405,56 @@ Add a page with articles or FAQs about appliance care, common faults, and preven
 ---
 
 # Testing
+
+## HTML Validation
+
+The [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input) was used to validate the HTML of the website. One page failed with an error, all others passed with no errors no warning to show.
+
+<details>
+<summary>Home</summary>
+
+![Screenshot](assets/readme-references/testing/home-html-val.png)
+</details>
+
+<details>
+<summary>Our Services</summary>
+
+![Screenshot](assets/readme-references/testing/services-html-val.png)
+</details>
+
+<details>
+<summary>Contact Us</summary>
+
+One error no warnings - Stray end tag, caused due to a typo. Removed duplicated `</main>` end tag.
+
+![Screenshot](assets/readme-references/testing/contact-html-stray.png)
+![Screenshot](assets/readme-references/testing/contact-html-val.png)
+</details>
+
+![Screenshot](assets/readme-references/testing/services-html-val.png)
+</details>
+
+<details>
+<summary>Action Page</summary>
+
+![Screenshot](assets/readme-references/testing/action-html-val.png)
+</details>
+
+## CSS Validation
+
+The [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used to validate the CSS of the website. No errors found, 4 warnings caused by Google Fonts import CSS and CSS variables pointing to Google Fonts import CSS.
+
+<details>
+<summary>CSS Passed</summary>
+
+![Screenshot](assets/readme-references/testing/css-val.png)
+</details>
+
+<details>
+<summary>CSS Warnings</summary>
+
+![Screenshot](assets/readme-references/testing/css-warnings.png)
+</details>
 
 ---
 
