@@ -148,7 +148,6 @@ The following typography is imported from [Google Fonts](https://fonts.google.co
 - **Body:** [Inter](https://fonts.google.com/specimen/Inter?query=inter) - used for paragraphs and general content
 
 ##### Google Fonts Link
-CSS
 
 ```<style>
 @import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,500;1,500&family=Inter:ital,opsz,wght@0,14..32,100.900;1,14..32,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');```
@@ -188,8 +187,6 @@ The business logo was used in the navigation bar and across key pages - designed
 - **Usage:** The logo is lightweight, scalable, and responsive to ensure clarity on all devices and screen sizes
 - **Placement:** Positioned in the navbar to support brand identity without overwhelming content
 - **Sizing:** Controlled using CSS to maintain aspect ratio and fit within the navbar layout:
-
-CSS
 
 ```.logo {height: 4.4em; width: auto;}```
 
