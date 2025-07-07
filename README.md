@@ -600,10 +600,33 @@ The website was deployed using **GitHub Pages**.
 
 ## Steps to deploy:
 
-1. In your GitHub repository, got to **Settings**.
-2. From the left-hand menu, select **Pages**.
-3. Under *Sources*, choose **Deploy from a branch** (or main, depending on your setup).
-4. After saving, a banner will appear at the top with your site link: `
+1. Go to your repository on **GitHub**.
+2. Click the **Settings** tab.
+3. In the sidebar, select **Pages**.
+4. Under **Source**, choose:
+    - `Deploy from a branch`
+    - Select the branch `Main`
+    - Select the folder `/root`
+5. Click **Save**.
+
+## View Your Live Site:
+
+1. GitHub will generate a URL for your site (e.g. `https://lukem1aa.github.io/milestone-project-one/index.html`).
+2. You'll see it displayed in the **Pages** section after a few moments.
+3. Visit the link to view your deployed site!
+
+## Fork the Repository
+
+1. Go to the original GitHub repository page in your browser.
+2. In the top-right corner, click the **Fork** buttton.
+3. Choose your GitHub account to fork it into your own repository list.
+
+## Clone the Repository
+
+1. Go to the original GitHub repository page in your browser.
+2. Click the green **Code** button - near the top right.
+3. Under **Clone**, choose **HTTPS**.
+4. Click the copy icon to copy the URL.
 
 ---
 
