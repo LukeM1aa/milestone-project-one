@@ -496,6 +496,26 @@ Line 58: `font-family: var(--primary-font);`
 ![Screenshot](assets/readme-references/testing/lighthouse-action.png)
 </details>
 
+## Testing on Devices
+
+The website was tested across multiple devices and tools to ensure responsiveness and usability:
+
+- **iPhone 15 Pro (iOS17)** Tested in both portrait and landscape orientations.
+- **Samsung Galaxy A52 (Android 14)** - Tested in both portrait and landscape orientations.
+- **iPad Mini 6 (iPadOS17)** - Tested in portrait and landscape modes, with particular attention to form usability. 
+- **MacBook Pro M3 14"** - Tested on macOS using multiple browsers (Chrome, Safari).
+- **Google Chrome DevTools** - Toggler used to simulate various screen sizes and verify responsiveness at key breakpoints.
+
+Responsiveness and layout consistency were a key focus during development. Navigation, form elements, and interactive components were reviewed across these devices. 
+
+### Future Enhancements & Noted Bugs
+
+- **iPhone 15 Pro & Samsung Galaxy A52 (Landscape)**: When tilted to landscape mode, the hero image appears cut in half, and the hero text overlaps the appliance feature section.
+- **iPad Mini 6 (Contact Form)**: The calendar inputs minimises when selected, reducing accessibility and ease of use.
+- **All Devices (Customer Reviews)** The review carousel slides overlap slighly during slide transitions. 
+
+Future updates will address these issues, with an ongoing focus on enhancing 
+
 ---
 
 # Deployment 
