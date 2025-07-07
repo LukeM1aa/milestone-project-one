@@ -413,3 +413,11 @@ form .btn {
     margin: 0 23em;
 }
 }
+
+/* 2XL devices (2XL devices, 1920px and up) */
+@media screen and (min-width: 1920px) {
+
+/* Customer reviews section */
+.carousel-item img {
+    right: -85em;
+}
