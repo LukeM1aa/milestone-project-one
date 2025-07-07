@@ -614,20 +614,20 @@ The website was deployed using **GitHub Pages**.
 ## Media
 - [Coolors](https://coolors.co) - Color scheme generator for styling
 - [Google Fonts](https://fonts.google.com/) - For typography imports
-- [Canva](https://www.canva.com/) - Used to design [company logo](assets/images/logo.svg) and generate SVG file for navigation bar
 - [Font Awesome](https://fontawesome.com/) - Unicode F005 `<i class="fa-solid fa-star fa-xl"></i>`
 - [Font Awesome](https://fontawesome.com/) - Unicode F095 `<i class="fa-solid fa-phone"></i>`
 - [Font Awesome](https://fontawesome.com/) - Unicode F0e0 `<i class="fa-solid fa-envelope"></i>`
 - [Font Awesome](https://fontawesome.com/) - Unicode F3c5 `<i class="fa-solid fa-location-dot"`
 - [Font Awesome](https://fontawesome.com/) - Unicode F058 `<i class="fa-solid fa-circle-check"></i>`
 - [Font Awesome](https://fontawesome.com/) - Unicode e1b0 `<i class="fa-solid fa-house-user"></i>`
-- [Free Icons - Credit to Hilmy Abiyyu Asad](https://freeicons.io/profile/75801) - [Washing Machine Favicon](assets/favicon/washing-machine.png)
-- [Adobe Stock - Credit to Weerapat](https://stock.adobe.com/uk/contributor/212123501/weerapat?load_type=author&prev_url=detail) - [Home - Hero Image](assets/images/hero-image.jpeg)
-- [Adobe Stock - Credit to Paworn](https://stock.adobe.com/uk/contributor/211875172/paworn?load_type=author&prev_url=detail) - [Appliances - Oven Image](assets/images/oven.png)
-- [Adobe Stock - Credit to Matcha-09](https://stock.adobe.com/uk/contributor/211891082/matcha-09?load_type=author&prev_url=detail) - [Appliances - Fridge Image](assets/images/fridge.png)
-- [Adobe Stock - Credit to Alloca Design Studio](https://stock.adobe.com/uk/contributor/212020487/alloca-design-studio?load_type=author&prev_url=detail) - [Appliances - Dishwasher Image](assets/images/dish.png)
-- [Adobe Stock - Credit to Jayk](https://stock.adobe.com/uk/contributor/211938241/jayk?load_type=author&prev_url=detail) - [Appliances - Washing Machine Image](assets/images/washing.png)
-
+- [Canva](https://www.canva.com/) - Used to design [company logo](assets/images/logo.svg) and generate SVG file for navigation bar
+- Free Icons - Credit to [Hilmy Abiyyu Asad](https://freeicons.io/profile/75801) - Washing Machine [Favicon](assets/favicon/washing-machine.png)
+- Adobe Stock - Credit to [Weerapat](https://stock.adobe.com/uk/contributor/212123501/weerapat?load_type=author&prev_url=detail) - Home - Hero [Image](assets/images/hero-image.jpeg)
+- Adobe Stock - Credit to [Paworn](https://stock.adobe.com/uk/contributor/211875172/paworn?load_type=author&prev_url=detail) - Appliances - Oven [Image](assets/images/oven.png)
+- Adobe Stock - Credit to [Matcha-09](https://stock.adobe.com/uk/contributor/211891082/matcha-09?load_type=author&prev_url=detail) - Appliances - Fridge [Image](assets/images/fridge.png)
+- Adobe Stock - Credit to [Alloca Design Studio](https://stock.adobe.com/uk/contributor/212020487/alloca-design-studio?load_type=author&prev_url=detail) - Appliances - Dishwasher [Image](assets/images/dish.png)
+- Adobe Stock - Credit to [Jayk](https://stock.adobe.com/uk/contributor/211938241/jayk?load_type=author&prev_url=detail) - Appliances - Washing Machine [Image](assets/images/washing.png)
+- 
 
 
 
